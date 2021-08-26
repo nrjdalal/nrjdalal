@@ -1,8 +1,8 @@
 ### Notice for @alvarus82
 Sir furthur work requires constant interaction bw us. Please be available on Fiverr or contact us via information given below.
 <br>
-> WA: https://wa.me/+91-9999373188<br>
-> TG: https://t.me/VeroXyle
+> WhatsApp: https://wa.me/+91-9999373188<br>
+> Telegram: https://t.me/VeroXyle
 
 ### Business contact information -
 Work email: admin@veroxyle.com
