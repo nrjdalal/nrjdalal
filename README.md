@@ -4,7 +4,7 @@ Work email: admin@veroxyle.com
 Contact no: +91-9999-373-188
 
 ### Personal contact information -
-Work email: nrjdalal@veroxyle.com
+Work email: admin@nrjdalal.com
 
 <!--
 **nrjdalal/nrjdalal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
