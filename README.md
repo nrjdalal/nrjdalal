@@ -1,4 +1,7 @@
-### Hi there 👋
+![](https://komarev.com/ghpvc/?username=nrjdalal&color=blue&style=for-the-badge)
+
+### Personal contact information -
+Work email: admin@nrjdalal.com
 
 <!--
 **nrjdalal/nrjdalal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
