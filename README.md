@@ -4,11 +4,11 @@
 
 > Status - Current Updated Oldest 5 out of my 60+ repositories
 
-- [Awesome Next/React Navbar (Try Mobile View)](https://nextjs-nrjdalal.vercel.app/)
-- [Beloans - Template](https://beloans-git-main-nrjdalal.vercel.app/)
+- [Indicators that closely follow TradingView](https://github.com/nrjdalal/technify)
 - [Google Search by Puppeterr - Organic and Paid results](https://github.com/nrjdalal/google-puppeteer)
 - [Get Buying Selling Hints for Your Crypto-Currency](https://github.com/nrjdalal/platformsh-demo)
-- [Indicators that closely follow TradingView](https://github.com/nrjdalal/technify)
+- [Awesome Next/React Navbar (Try Mobile View)](https://nextjs-nrjdalal.vercel.app/)
+- [Beloans - Template](https://beloans-git-main-nrjdalal.vercel.app/)
 
 ### Personal contact information -
 
