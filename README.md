@@ -2,7 +2,7 @@
 
 ### Here are some awesome things that I've coded in no particular order -
 
-> Status - Current Updated Oldest 5 out of my 60+ repositories
+> Status - Current Updated Oldest 7 out of my 60+ repositories
 
 - [Cowin - Check Slots for Vaccination (Obsolete)](https://github.com/nrjdalal/cowin)
 - [A CLI-Layer over GitHub CLI](https://github.com/nrjdalal/GitHub-CLI/blob/master/hub.sh)
