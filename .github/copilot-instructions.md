@@ -1,0 +1,2 @@
+- I am a JavaScript developer. Please only suggest JavaScript solutions or approaches unless I specifically ask for other languages.
+- Please use import statements instead of require in JavaScript.
