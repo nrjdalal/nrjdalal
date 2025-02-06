@@ -9,9 +9,39 @@
               {
                 "type": "basic",
                 "from": {
-                  "key_code": "fn"
+                  "key_code": "fn",
+                  "modifiers": {
+                    "optional": ["any"]
+                  }
                 },
                 "to": [
+                  {
+                    "shell_command": "open '/Applications/Spotify.app'"
+                  }
+                ],
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "key pressed",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "basic",
+                "from": {
+                  "key_code": "fn",
+                  "modifiers": {
+                    "optional": ["any"]
+                  }
+                },
+                "to": [
+                  {
+                    "set_variable": {
+                      "name": "key pressed",
+                      "value": 1
+                    }
+                  },
                   {
                     "key_code": "fn"
                   }
@@ -21,7 +51,25 @@
                     "key_code": "tab",
                     "modifiers": ["left_command"]
                   }
-                ]
+                ],
+                "to_delayed_action": {
+                  "to_if_invoked": [
+                    {
+                      "set_variable": {
+                        "name": "key pressed",
+                        "value": 0
+                      }
+                    }
+                  ],
+                  "to_if_canceled": [
+                    {
+                      "set_variable": {
+                        "name": "key pressed",
+                        "value": 0
+                      }
+                    }
+                  ]
+                }
               },
               {
                 "type": "basic",
@@ -34,21 +82,6 @@
                 "to": [
                   {
                     "shell_command": "open '/Applications/Visual Studio Code.app'"
-                  }
-                ]
-              },
-              {
-                "type": "basic",
-                "from": {
-                  "key_code": "spacebar",
-                  "modifiers": {
-                    "mandatory": ["fn"]
-                  }
-                },
-                "to": [
-                  {
-                    "key_code": "spacebar",
-                    "modifiers": ["left_command"]
                   }
                 ]
               }
