@@ -4,38 +4,38 @@
       "complex_modifications": {
         "rules": [
           {
-            "description": "fn to cmd+tab",
+            "description": "Switch between last used apps",
             "manipulators": [
               {
+                "type": "basic",
                 "from": {
-                  "key_code": "fn",
-                  "modifiers": { "mandatory": [] }
+                  "key_code": "fn"
                 },
                 "to": [
+                  {
+                    "key_code": "fn"
+                  }
+                ],
+                "to_if_alone": [
                   {
                     "key_code": "tab",
                     "modifiers": ["left_command"]
                   }
-                ],
-                "type": "basic"
-              }
-            ]
-          },
-          {
-            "description": "right_command to fn",
-            "manipulators": [
+                ]
+              },
               {
+                "type": "basic",
                 "from": {
-                  "key_code": "right_command",
-                  "modifiers": { "mandatory": [] }
+                  "key_code": "v",
+                  "modifiers": {
+                    "mandatory": ["fn"]
+                  }
                 },
                 "to": [
                   {
-                    "key_code": "fn",
-                    "modifiers": []
+                    "shell_command": "open '/Applications/Visual Studio Code.app'"
                   }
-                ],
-                "type": "basic"
+                ]
               }
             ]
           }
@@ -45,5 +45,6 @@
       "selected": true,
       "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
     }
-  ]
+  ],
+  "global": { "show_in_menu_bar": false }
 }
