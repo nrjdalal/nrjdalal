@@ -20,6 +20,24 @@
                 "type": "basic"
               }
             ]
+          },
+          {
+            "description": "right_command to fn",
+            "manipulators": [
+              {
+                "from": {
+                  "key_code": "right_command",
+                  "modifiers": { "mandatory": [] }
+                },
+                "to": [
+                  {
+                    "key_code": "fn",
+                    "modifiers": []
+                  }
+                ],
+                "type": "basic"
+              }
+            ]
           }
         ]
       },
