@@ -10,6 +10,8 @@
 
 ## Dashboard
 
+Some of my repositories are listed below. You can find more on my [Github profile](https://github.com/nrjdalal?tab=repositories).
+
 |                                  repository                                  |                                                  stars                                                  |                                        downloads                                        |
 | :--------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
 | <details><summary>&nbsp;karabiner-human-config</summary>2025-02-07</details> | ![stars](https://img.shields.io/github/stars/nrjdalal/karabiner-human-config?label=&style=&color=white) | ![npm](https://img.shields.io/npm/dt/karabiner-human-config?label=&style=&color=white)  |
