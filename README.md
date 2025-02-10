@@ -15,6 +15,7 @@
 |         rdt-li         |         ![stars](https://img.shields.io/github/stars/nrjdalal/rdt-li?label=&style=&color=white)         |                                            -                                            |
 |         onset          |         ![stars](https://img.shields.io/github/stars/nrjdalal/onset?label=&style=&color=white)          |                                            -                                            |
 |   shadcn-ui-snippets   |   ![stars](https://img.shields.io/github/stars/nrjdalal/shadcn-ui-snippets?label=&style=&color=white)   |                                            -                                            |
+|       jiotv-next       |       ![stars](https://img.shields.io/github/stars/nrjdalal/JioTV-Next?label=&style=&color=white)       |                                                                                         |
 |     google-parser      |     ![stars](https://img.shields.io/github/stars/nrjdalal/google-parser?label=&style=&color=white)      | ![npm](https://img.shields.io/npm/dt/@nrjdalal/google-parser?label=&style=&color=white) |
 |   awesome-templates    |   ![stars](https://img.shields.io/github/stars/nrjdalal/awesome-templates?label=&style=&color=white)    |                                            -                                            |
 |        gitpick         |        ![stars](https://img.shields.io/github/stars/nrjdalal/gitpick?label=&style=&color=white)         |         ![npm](https://img.shields.io/npm/dt/gitpick?label=&style=&color=white)         |
