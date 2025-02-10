@@ -10,8 +10,10 @@
 
 ---
 
-|       repository       |                                                  stars                                                  |                                          npm                                           |
+|       repository       |                                                  stars                                                  |                                       downloads                                        |
 | :--------------------: | :-----------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
+|         rdt-li         |         ![stars](https://img.shields.io/github/stars/nrjdalal/rdt-li?label=&style=&color=white)         |                                           -                                            |
+|   shadcn-ui-snippets   |   ![stars](https://img.shields.io/github/stars/nrjdalal/shadcn-ui-snippets?label=&style=&color=white)   |                                           -                                            |
 |   awesome-templates    |   ![stars](https://img.shields.io/github/stars/nrjdalal/awesome-templates?label=&style=&color=white)    |                                           -                                            |
 |        gitpick         |        ![stars](https://img.shields.io/github/stars/nrjdalal/gitpick?label=&style=&color=white)         |        ![npm](https://img.shields.io/npm/dt/gitpick?label=&style=&color=white)         |
 | karabiner-human-config | ![stars](https://img.shields.io/github/stars/nrjdalal/karabiner-human-config?label=&style=&color=white) | ![npm](https://img.shields.io/npm/dt/karabiner-human-config?label=&style=&color=white) |
