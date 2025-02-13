@@ -12,7 +12,7 @@
 
 ---
 
-## Github Dashboard
+## Some of my recent projects, visit [repositories](https://github.com/nrjdalal?tab=repositories) for more!
 
 <!-- prettier-ignore-start -->
 <!-- nrjdalal/github-dashboard -->
