@@ -38,7 +38,7 @@
 | readrave | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/readrave">Link</a></summary><br/><p>Documentation in Next.js has never been easier (releasing soon)</p><p>Created: Mon May 13 2024</p><p>Updated: Tue Aug 13 2024</p></details> |
 | silicon-virtualizer | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/silicon-virtualizer">Link</a></summary><br/><p>Ubuntu VMs on demand for Silicon based Apple Macs, aka Macs own QEMU based Multipass</p><p>Created: Sat Jun 05 2021</p><p>Updated: Thu Nov 02 2023</p></details> |
 | GIT-Website-Workflow | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/GIT-Website-Workflow">Link</a></summary><br/><p>A simple script to set up an efficient development workflow using Git to manage a live website</p><p>Created: Sun Jun 14 2020</p><p>Updated: Thu Nov 02 2023</p></details> |
-| dalal |  |  |  | 2801 | <details><summary><a href="https://github.com/nrjdalal/dalal">Link</a></summary><br/><p>Created: Tue Feb 04 2025</p><p>Updated: Thu Feb 06 2025</p></details> |
+| dalal |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/dalal">Link</a></summary><br/><p>Created: Tue Feb 04 2025</p><p>Updated: Thu Feb 06 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
