@@ -12,7 +12,7 @@
 
 ---
 
-## Some of my recent projects, visit [repositories](https://github.com/nrjdalal?tab=repositories) for more!
+## Some of my recent public [repositories](https://github.com/nrjdalal?tab=repositories), updated every 8 hours.
 
 <!-- prettier-ignore-start -->
 <!-- nrjdalal/github-dashboard -->
