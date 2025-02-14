@@ -1,4 +1,4 @@
-name: schedule
+name: update-stats
 
 on:
   push:
