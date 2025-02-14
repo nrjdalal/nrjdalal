@@ -1,0 +1,47 @@
+name: schedule
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 */8 * * *'
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+permissions:
+  contents: write
+
+jobs:
+  update-templates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Update Readme
+        run: |
+          bunx github-dashboard@latest nrjdalal
+
+      - name: Push Changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+          DATE=$(date -u +"%b %d %H:%M UTC %y")
+          EMOJIS=("🔴" "🟠" "🟡" "🟢" "🔵" "🟣" "🟤")
+          DAY_OF_WEEK=$(date -u +"%w")
+          EMOJI=${EMOJIS[$DAY_OF_WEEK]}
+
+          git add .
+          git commit -m "$EMOJI $DATE"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
