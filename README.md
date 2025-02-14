@@ -6,9 +6,9 @@
 
 ## Have an awesome project, need a hand? Hit me up!
 
+- Email - [nd941z@gmail.com](mailto:nd941z@gmail.com)
 - Website - [nrjdalal.com](https://rdt.li/gh2nrjdalal)
 - Twitter - [x.com/nrjdalal_com](https://rdt.li/x-nrjdalal)
-- Work - [nd941z@gmail.com](mailto:nd941z@gmail.com)
 
 ---
 
