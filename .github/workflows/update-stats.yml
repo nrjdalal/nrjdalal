@@ -41,7 +41,7 @@ jobs:
           EMOJI=${EMOJIS[$DAY_OF_WEEK]}
 
           git add .
-          git commit -m "$EMOJI $DATE"
+          git commit -m "$EMOJI $DATE" || true
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
