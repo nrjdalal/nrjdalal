@@ -28,7 +28,7 @@ jobs:
 
       - name: Update Readme
         run: |
-          bunx github-dashboard@latest nrjdalal
+          bunx github-dashboard@latest nrjdalal -e png-icons -e starter -e nrjdalal
 
       - name: Push Changes
         run: |
