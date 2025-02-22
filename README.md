@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 5 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Feb 22 2025</p></details> |
+| awesome-templates | 5 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every hour.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Feb 22 2025</p></details> |
 | zshify | 2 |  |  | 4 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Sat Feb 22 2025</p></details> |
 | github-dashboard |  |  |  | 474 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Fri Feb 21 2025</p></details> |
 | nrjdalal.com |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/nrjdalal.com">Link</a></summary><br/><p>Created: Sat Feb 15 2025</p><p>Updated: Fri Feb 21 2025</p></details> |
