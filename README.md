@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| nrjdalal.com | 3 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/nrjdalal.com">Link</a></summary><br/><p>Created: Sat Feb 15 2025</p><p>Updated: Tue Feb 25 2025</p></details> |
 | awesome-templates | 6 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every hour.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Feb 25 2025</p></details> |
+| nrjdalal.com | 3 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/nrjdalal.com">Link</a></summary><br/><p>Created: Sat Feb 15 2025</p><p>Updated: Tue Feb 25 2025</p></details> |
 | rdt-li | 242 | 19 |  |  | <details><summary><a href="https://github.com/nrjdalal/rdt-li">Link</a></summary><br/><p>rdt.li self hostable, feature rich, minimalistic and open source URL shortener. Built with Next.js, Drizzle, NextAuth and Postgres.</p><p>Created: Sun Nov 05 2023</p><p>Updated: Mon Feb 24 2025</p></details> |
 | zshify | 2 |  |  | 4 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Sat Feb 22 2025</p></details> |
 | github-dashboard |  |  |  | 133 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Fri Feb 21 2025</p></details> |
