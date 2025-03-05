@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 6 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every hour.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Mar 05 2025</p></details> |
 | zshify | 2 |  |  | 11 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Wed Mar 05 2025</p></details> |
+| awesome-templates | 6 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every hour.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Mar 05 2025</p></details> |
 | gitpick | 3 |  |  | 188 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>With gitpick, you can clone precisely what you need.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Mar 05 2025</p></details> |
 | smart-registry | 2 |  |  | 4978 | <details><summary><a href="https://github.com/nrjdalal/smart-registry">Link</a></summary><br/><p>Created: Wed Feb 26 2025</p><p>Updated: Mon Mar 03 2025</p></details> |
 | karabiner-human-config | 6 |  |  | 19 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Sun Mar 02 2025</p></details> |
