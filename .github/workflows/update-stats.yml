@@ -28,7 +28,7 @@ jobs:
 
       - name: Update Readme
         run: |
-          bunx github-dashboard@latest nrjdalal -e .github -e modern-navbar -e npm-aliasing -e nrjdalal -e png-icons -e starter -e v0.nrjdalal.com
+          bunx github-dashboard@latest nrjdalal -e .github -e better-next -e modern-navbar -e npm-aliasing -e nrjdalal -e png-icons -e starter -e v0.nrjdalal.com
 
       - name: Push Changes
         run: |
