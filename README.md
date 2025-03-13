@@ -14,7 +14,7 @@
 
 ---
 
-## Stats of my recent public [repositories](https://github.com/nrjdalal?tab=repositories), updated every hour.
+## Stats of my recent public [repositories](https://github.com/nrjdalal?tab=repositories), updated 8 hours.
 
 <br/>
 
