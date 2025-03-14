@@ -1,6 +1,8 @@
-# Oh you're here might as well follow!
+# Oh you're here! Might as well follow or leave a message!
 
 ![](https://rdt.li/gh-nrjdalal-visits)
+
+[Leave a request/message](https://gist.github.com/nrjdalal/482e602c0bff8e70254ca3b47161bd20)
 
 ---
 
