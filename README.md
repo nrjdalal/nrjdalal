@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 6 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Mar 19 2025</p></details> |
+| awesome-templates | 6 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Mar 20 2025</p></details> |
 | gitpick | 4 |  |  | 177 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>With gitpick, you can clone precisely what you need.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Mar 18 2025</p></details> |
 | tailwind-animate |  |  |  | 0 | <details><summary><a href="https://github.com/nrjdalal/tailwind-animate">Link</a></summary><br/><p>A v4.0 compatible Tailwind CSS plugin for creating beautiful animations, replacing `tailwindcss-animate`. Includes custom animations like `accordion-up` and `accordion-down`, and more!</p><p>Created: Tue Mar 18 2025</p><p>Updated: Tue Mar 18 2025</p></details> |
 | zshify | 2 |  |  | 24 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Tue Mar 18 2025</p></details> |
