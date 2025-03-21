@@ -23,8 +23,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| karabiner-human-config | 8 | 1 |  | 4 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Fri Mar 21 2025</p></details> |
+| the-typescript-starter |  |  |  | 0 | <details><summary><a href="https://github.com/nrjdalal/the-typescript-starter">Link</a></summary><br/><p>Created: Fri Mar 21 2025</p><p>Updated: Fri Mar 21 2025</p></details> |
 | awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Mar 21 2025</p></details> |
+| karabiner-human-config | 8 | 1 |  | 4 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Fri Mar 21 2025</p></details> |
 | gitpick | 4 |  |  | 70 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>With gitpick, you can clone precisely what you need.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Mar 18 2025</p></details> |
 | tailwind-animate |  |  |  | 0 | <details><summary><a href="https://github.com/nrjdalal/tailwind-animate">Link</a></summary><br/><p>A v4.0 compatible Tailwind CSS plugin for creating beautiful animations, replacing `tailwindcss-animate`. Includes custom animations like `accordion-up` and `accordion-down`, and more!</p><p>Created: Tue Mar 18 2025</p><p>Updated: Tue Mar 18 2025</p></details> |
 | zshify | 2 |  |  | 24 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Tue Mar 18 2025</p></details> |
@@ -42,7 +43,6 @@
 | shadcnext | 1 | 1 |  | 0 | <details><summary><a href="https://github.com/nrjdalal/shadcnext">Link</a></summary><br/><p>shadcn but for tailwind v4</p><p>Created: Wed Dec 11 2024</p><p>Updated: Thu Jan 16 2025</p></details> |
 | readrave | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/readrave">Link</a></summary><br/><p>Documentation in Next.js has never been easier (releasing soon)</p><p>Created: Mon May 13 2024</p><p>Updated: Tue Aug 13 2024</p></details> |
 | silicon-virtualizer | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/silicon-virtualizer">Link</a></summary><br/><p>Ubuntu VMs on demand for Silicon based Apple Macs, aka Macs own QEMU based Multipass</p><p>Created: Sat Jun 05 2021</p><p>Updated: Thu Nov 02 2023</p></details> |
-| GIT-Website-Workflow | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/GIT-Website-Workflow">Link</a></summary><br/><p>A simple script to set up an efficient development workflow using Git to manage a live website</p><p>Created: Sat Jun 13 2020</p><p>Updated: Thu Nov 02 2023</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
