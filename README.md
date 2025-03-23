@@ -23,10 +23,10 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| the-typescript-starter |  |  |  | 43 | <details><summary><a href="https://github.com/nrjdalal/the-typescript-starter">Link</a></summary><br/><p>Created: Fri Mar 21 2025</p><p>Updated: Sun Mar 23 2025</p></details> |
-| smart-npm-release |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/smart-npm-release">Link</a></summary><br/><p>Created: Sat Mar 22 2025</p><p>Updated: Sat Mar 22 2025</p></details> |
+| smart-npm-release |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/smart-npm-release">Link</a></summary><br/><p>Created: Sat Mar 22 2025</p><p>Updated: Sun Mar 23 2025</p></details> |
+| the-typescript-starter |  |  |  | 1083 | <details><summary><a href="https://github.com/nrjdalal/the-typescript-starter">Link</a></summary><br/><p>Created: Fri Mar 21 2025</p><p>Updated: Sun Mar 23 2025</p></details> |
+| awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Mar 23 2025</p></details> |
 | npm-release-canary | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/npm-release-canary">Link</a></summary><br/><p>Created: Sat Mar 22 2025</p><p>Updated: Sat Mar 22 2025</p></details> |
-| awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Mar 22 2025</p></details> |
 | zshify | 2 |  |  | 24 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Sat Mar 22 2025</p></details> |
 | karabiner-human-config | 9 | 1 |  | 4 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Sat Mar 22 2025</p></details> |
 | gitpick | 4 |  |  | 70 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>With gitpick, you can clone precisely what you need.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Mar 18 2025</p></details> |
