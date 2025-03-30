@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| gitpick | 10 |  | 2 | 437 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>With gitpick, you can clone precisely what you need.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Mar 30 2025</p></details> |
+| gitpick | 11 |  | 2 | 3723 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>With gitpick, you can clone precisely what you need.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Mar 30 2025</p></details> |
 | awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Mar 30 2025</p></details> |
 | next-to-start |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/next-to-start">Link</a></summary><br/><p>Created: Sat Mar 29 2025</p><p>Updated: Sat Mar 29 2025</p></details> |
 | zshify | 2 |  |  | 40 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Sat Mar 29 2025</p></details> |
