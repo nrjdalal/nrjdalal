@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| gitpick | 15 |  | 1 | 8037 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Apr 03 2025</p></details> |
 | zshify | 2 |  |  | 101 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Thu Apr 03 2025</p></details> |
-| gitpick | 14 |  | 1 | 8037 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Apr 03 2025</p></details> |
 | awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Apr 03 2025</p></details> |
 | karabiner-human-config | 10 | 1 |  | 304 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Tue Apr 01 2025</p></details> |
 | next-to-start |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/next-to-start">Link</a></summary><br/><p>Created: Sat Mar 29 2025</p><p>Updated: Sat Mar 29 2025</p></details> |
