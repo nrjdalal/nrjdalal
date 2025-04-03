@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 */8 * * *'
+    - cron: "0 */8 * * *"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
@@ -28,7 +28,7 @@ jobs:
 
       - name: Update Readme
         run: |
-          bunx github-dashboard@latest nrjdalal -e .github -e better-next -e modern-navbar -e npm-aliasing -e nrjdalal -e png-icons -e starter -e tailwind-animate -e v0.nrjdalal.com
+          bunx github-dashboard@latest nrjdalal -e nrjdalal
 
       - name: Push Changes
         run: |
