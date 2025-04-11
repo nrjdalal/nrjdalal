@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| karabiner-human-config | 13 | 1 |  | 37 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Fri Apr 11 2025</p></details> |
 | awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Apr 11 2025</p></details> |
+| karabiner-human-config | 13 | 1 |  | 37 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Fri Apr 11 2025</p></details> |
 | shadcn-ui-snippets | 109 | 6 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/shadcn-ui-snippets">Link</a></summary><br/><p>Simply import and use shadcn-ui components in your project</p><p>Created: Fri Oct 27 2023</p><p>Updated: Thu Apr 10 2025</p></details> |
 | zshify | 2 |  |  | 26 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Wed Apr 09 2025</p></details> |
 | dalal |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/dalal">Link</a></summary><br/><p>Created: Tue Feb 04 2025</p><p>Updated: Tue Apr 08 2025</p></details> |
