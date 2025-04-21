@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Apr 20 2025</p></details> |
+| awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Apr 21 2025</p></details> |
 | gitpick | 26 |  | 1 | 1126 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Apr 20 2025</p></details> |
 | tailwind-replace-colors |  |  |  | 0 | <details><summary><a href="https://github.com/nrjdalal/tailwind-replace-colors">Link</a></summary><br/><p>Created: Sat Apr 19 2025</p><p>Updated: Sun Apr 20 2025</p></details> |
 | better-next | 4 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-next">Link</a></summary><br/><p>Add better-auth using a single commad, or use the template itself, built for Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry</p><p>Created: Sat Mar 08 2025</p><p>Updated: Fri Apr 18 2025</p></details> |
