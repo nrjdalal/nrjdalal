@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Apr 26 2025</p></details> |
 | gitpick | 29 |  | 1 | 782 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Apr 25 2025</p></details> |
-| awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Apr 25 2025</p></details> |
 | the-next-starter |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/the-next-starter">Link</a></summary><br/><p>Created: Thu Apr 24 2025</p><p>Updated: Thu Apr 24 2025</p></details> |
 | the-typescript-starter |  |  | 1 | 261 | <details><summary><a href="https://github.com/nrjdalal/the-typescript-starter">Link</a></summary><br/><p>Created: Sun Mar 23 2025</p><p>Updated: Thu Apr 24 2025</p></details> |
 | smart-registry | 8 |  |  | 24 | <details><summary><a href="https://github.com/nrjdalal/smart-registry">Link</a></summary><br/><p>A zero-configuration (no registry.json required), shadcn add / open in v0 compatible registry builder. With amazing visual feedback like how many dependencies and files are being added to a file/component and much more.</p><p>Created: Wed Feb 26 2025</p><p>Updated: Wed Apr 23 2025</p></details> |
