@@ -23,10 +23,10 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Apr 30 2025</p></details> |
 | the-typescript-starter |  |  |  | 457 | <details><summary><a href="https://github.com/nrjdalal/the-typescript-starter">Link</a></summary><br/><p>Created: Sun Mar 23 2025</p><p>Updated: Wed Apr 30 2025</p></details> |
 | gitpick | 33 |  |  | 948 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Apr 30 2025</p></details> |
 | npm-aliasing |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/npm-aliasing">Link</a></summary><br/><p>Created: Mon Feb 17 2025</p><p>Updated: Wed Apr 30 2025</p></details> |
-| awesome-templates | 7 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Apr 30 2025</p></details> |
 | the-next-starter |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/the-next-starter">Link</a></summary><br/><p>Created: Sun Apr 27 2025</p><p>Updated: Wed Apr 30 2025</p></details> |
 | smart-registry | 9 |  |  | 97 | <details><summary><a href="https://github.com/nrjdalal/smart-registry">Link</a></summary><br/><p>A zero-configuration (no registry.json required), shadcn add / open in v0 compatible registry builder. With amazing visual feedback like how many dependencies and files are being added to a file/component and much more.</p><p>Created: Wed Feb 26 2025</p><p>Updated: Tue Apr 29 2025</p></details> |
 | pglaunch | 1 | 1 |  | 11 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Quickly launch a PostgreSQL database for testing or development purposes.</p><p>Created: Tue Oct 31 2023</p><p>Updated: Mon Apr 28 2025</p></details> |
