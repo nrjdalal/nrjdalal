@@ -1,4 +1,4 @@
-# Oh you're here! Might as well follow or [start a conversation](https://gist.github.com/nrjdalal/482e602c0bff8e70254ca3b47161bd20)!
+# Oh you're here! Might as well follow or [start a conversation](https://gist.github.com/nrjdalal/482e602c0bff8e70254ca3b47161bd20).
 
 ![](https://rdt.li/gh-nrjdalal-visits)
 
