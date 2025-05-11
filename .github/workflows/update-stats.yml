@@ -28,7 +28,7 @@ jobs:
 
       - name: Update Readme
         run: |
-          bunx github-dashboard@latest nrjdalal -e nrjdalal -e npm-aliasing	 -e the-next-starter	-e the-typescript-starter	
+          bunx github-dashboard@latest nrjdalal -e nrjdalal -e npm-aliasing	 -e realtime-v2 -e the-next-starter	-e the-typescript-starter	
 
       - name: Push Changes
         run: |
