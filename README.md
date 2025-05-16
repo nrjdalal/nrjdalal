@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| gitpick | 62 |  |  | 1087 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri May 16 2025</p></details> |
 | awesome-templates | 8 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri May 16 2025</p></details> |
+| gitpick | 62 |  |  | 1087 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri May 16 2025</p></details> |
 | smart-registry | 13 |  |  | 1036 | <details><summary><a href="https://github.com/nrjdalal/smart-registry">Link</a></summary><br/><p>A zero-configuration (no registry.json required), shadcn add / open in v0 compatible registry builder. With amazing visual feedback like how many dependencies and files are being added to a file/component and much more.</p><p>Created: Wed Feb 26 2025</p><p>Updated: Wed May 14 2025</p></details> |
 | JioTV-Next | 36 | 33 |  |  | <details><summary><a href="https://github.com/nrjdalal/JioTV-Next">Link</a></summary><br/><p>JioTV HD Streaming Free on Browser / Android / Android TV</p><p>Created: Sun Aug 28 2022</p><p>Updated: Wed May 14 2025</p></details> |
 | karabiner-human-config | 17 | 1 |  | 3 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Tue May 13 2025</p></details> |
