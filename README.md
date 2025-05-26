@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| prettier-plugin-react | 1 |  |  | 386 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>Created: Mon Jan 27 2025</p><p>Updated: Sun May 25 2025</p></details> |
 | awesome-templates | 8 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun May 25 2025</p></details> |
+| prettier-plugin-react | 1 |  |  | 386 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>Created: Mon Jan 27 2025</p><p>Updated: Sun May 25 2025</p></details> |
 | gitpick | 69 |  |  | 1033 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun May 25 2025</p></details> |
 | smart-registry | 14 |  |  | 364 | <details><summary><a href="https://github.com/nrjdalal/smart-registry">Link</a></summary><br/><p>A zero-configuration (no registry.json required), shadcn add / open in v0 compatible registry builder. With amazing visual feedback like how many dependencies and files are being added to a file/component and much more.</p><p>Created: Wed Feb 26 2025</p><p>Updated: Wed May 21 2025</p></details> |
 | colorwindcss | 2 |  |  | 65 | <details><summary><a href="https://github.com/nrjdalal/colorwindcss">Link</a></summary><br/><p>Need to know your colors better? Identify which Tailwind colors are used in your CSS files with `colorwindcss`!</p><p>Created: Sat Apr 19 2025</p><p>Updated: Tue May 20 2025</p></details> |
