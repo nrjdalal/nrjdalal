@@ -23,10 +23,10 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| virtual-next-routes |  |  |  | 0 | <details><summary><a href="https://github.com/nrjdalal/virtual-next-routes">Link</a></summary><br/><p>Created: Wed May 28 2025</p><p>Updated: Wed May 28 2025</p></details> |
+| awesome-templates | 8 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu May 29 2025</p></details> |
+| virtual-next-routes |  |  |  | 2337 | <details><summary><a href="https://github.com/nrjdalal/virtual-next-routes">Link</a></summary><br/><p>Created: Wed May 28 2025</p><p>Updated: Wed May 28 2025</p></details> |
 | karabiner-human-config | 20 | 1 |  | 4 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Wed May 28 2025</p></details> |
 | next-to-start |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/next-to-start">Link</a></summary><br/><p>Created: Tue May 27 2025</p><p>Updated: Wed May 28 2025</p></details> |
-| awesome-templates | 8 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed May 28 2025</p></details> |
 | gitpick | 72 |  | 1 | 1033 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue May 27 2025</p></details> |
 | onset | 61 | 2 |  |  | <details><summary><a href="https://github.com/nrjdalal/onset">Link</a></summary><br/><p>An open source Next.js bare starter with step-by-step instructions if required. Built with Next.js 14, Drizzle (Postgres), NextAuth/Auth.js.</p><p>Created: Thu Nov 02 2023</p><p>Updated: Tue May 27 2025</p></details> |
 | start |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/start">Link</a></summary><br/><p>Created: Tue May 27 2025</p><p>Updated: Tue May 27 2025</p></details> |
