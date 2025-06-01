@@ -23,10 +23,10 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 8 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat May 31 2025</p></details> |
+| awesome-templates | 8 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Jun 01 2025</p></details> |
+| next-to-start | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/next-to-start">Link</a></summary><br/><p>Created: Tue May 27 2025</p><p>Updated: Sun Jun 01 2025</p></details> |
 | karabiner-human-config | 22 | 1 |  | 6 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Fri May 30 2025</p></details> |
 | JioTV-Next | 37 | 33 |  |  | <details><summary><a href="https://github.com/nrjdalal/JioTV-Next">Link</a></summary><br/><p>JioTV HD Streaming Free on Browser / Android / Android TV</p><p>Created: Sun Aug 28 2022</p><p>Updated: Fri May 30 2025</p></details> |
-| next-to-start | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/next-to-start">Link</a></summary><br/><p>Created: Tue May 27 2025</p><p>Updated: Fri May 30 2025</p></details> |
 | better-next | 8 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-next">Link</a></summary><br/><p>Add better-auth using a single commad, or use the template itself, built for Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry</p><p>Created: Sat Mar 08 2025</p><p>Updated: Thu May 29 2025</p></details> |
 | virtual-next-routes |  |  |  | 2337 | <details><summary><a href="https://github.com/nrjdalal/virtual-next-routes">Link</a></summary><br/><p>Created: Wed May 28 2025</p><p>Updated: Wed May 28 2025</p></details> |
 | gitpick | 72 |  | 1 | 883 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue May 27 2025</p></details> |
