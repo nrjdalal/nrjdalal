@@ -8,7 +8,7 @@
 
 <br/>
 
-- Email - [nd941z@gmail.com](mailto:nd941z@gmail.com)
+- Email - [nd941z@gmail.com](mailto:nrjdalal.dev@gmail.com)
 - Website - [nrjdalal.com](https://rdt.li/gh2nrjdalal)
 - Twitter - [x.com/nrjdalal_com](https://rdt.li/x-nrjdalal)
 
