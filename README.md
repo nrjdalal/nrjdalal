@@ -23,9 +23,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| awesome-templates | 8 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Jun 02 2025</p></details> |
 | pglaunch | 1 | 1 |  | 839 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Generate multiple PostgreSQL connection strings/databases using CLI for development environments!</p><p>Created: Tue Oct 31 2023</p><p>Updated: Mon Jun 02 2025</p></details> |
 | gitpick | 73 |  |  | 932 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Jun 02 2025</p></details> |
-| awesome-templates | 8 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Jun 02 2025</p></details> |
 | zshify | 3 |  |  | 9 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Sun Jun 01 2025</p></details> |
 | next-to-start | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/next-to-start">Link</a></summary><br/><p>Created: Tue May 27 2025</p><p>Updated: Sun Jun 01 2025</p></details> |
 | better-start |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-start">Link</a></summary><br/><p>Created: Sun Jun 01 2025</p><p>Updated: Sun Jun 01 2025</p></details> |
