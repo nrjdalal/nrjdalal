@@ -23,9 +23,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| gitpick | 74 |  |  | 989 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Jun 04 2025</p></details> |
 | awesome-templates | 8 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Jun 04 2025</p></details> |
 | better-start |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-start">Link</a></summary><br/><p>Created: Mon Jun 02 2025</p><p>Updated: Tue Jun 03 2025</p></details> |
-| gitpick | 73 |  |  | 989 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Jun 03 2025</p></details> |
 | next-to-start | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/next-to-start">Link</a></summary><br/><p>Created: Tue May 27 2025</p><p>Updated: Mon Jun 02 2025</p></details> |
 | v0.nrjdalal.com |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/v0.nrjdalal.com">Link</a></summary><br/><p>My personal portfolio. Clone it to make yours.</p><p>Created: Thu Nov 30 2023</p><p>Updated: Mon Jun 02 2025</p></details> |
 | nrjdalal.com | 3 |  | 1 |  | <details><summary><a href="https://github.com/nrjdalal/nrjdalal.com">Link</a></summary><br/><p>Created: Sat Feb 15 2025</p><p>Updated: Mon Jun 02 2025</p></details> |
