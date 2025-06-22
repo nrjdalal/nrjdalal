@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| gitpick | 100 |  | 1 | 854 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Jun 22 2025</p></details> |
 | awesome-templates | 11 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Jun 22 2025</p></details> |
+| gitpick | 100 |  | 1 | 854 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Jun 22 2025</p></details> |
 | JioTV-Next | 37 | 33 |  |  | <details><summary><a href="https://github.com/nrjdalal/JioTV-Next">Link</a></summary><br/><p>JioTV HD Streaming Free on Browser / Android / Android TV</p><p>Created: Sun Aug 28 2022</p><p>Updated: Thu Jun 19 2025</p></details> |
 | karabiner-human-config | 25 | 1 | 1 | 8 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Tue Jun 17 2025</p></details> |
 | rdt-li | 250 | 21 |  |  | <details><summary><a href="https://github.com/nrjdalal/rdt-li">Link</a></summary><br/><p>rdt.li self hostable, feature rich, minimalistic and open source URL shortener. Built with Next.js, Drizzle, NextAuth and Postgres.</p><p>Created: Sun Nov 05 2023</p><p>Updated: Mon Jun 16 2025</p></details> |
@@ -42,7 +42,7 @@
 | lazy-dev | 2 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/lazy-dev">Link</a></summary><br/><p>LazyDev - A Next.js/React development tool crafted for use within Next.js or React frameworks, streamlining navigation and bookmarking across pages. More features to come shortly.</p><p>Created: Mon Apr 22 2024</p><p>Updated: Fri Dec 13 2024</p></details> |
 | verosearch-prowlarr | 2 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/verosearch-prowlarr">Link</a></summary><br/><p>Torrent search engine (user interface) for Prowlarr</p><p>Created: Wed Aug 17 2022</p><p>Updated: Mon Oct 02 2023</p></details> |
 | pglaunch | 1 | 1 |  | 122 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Generate multiple PostgreSQL connection strings/databases using CLI for development environments!</p><p>Created: Tue Oct 31 2023</p><p>Updated: Mon Jun 02 2025</p></details> |
-| prettier-plugin-react | 1 |  |  | 187 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>Created: Mon Jan 27 2025</p><p>Updated: Sun May 25 2025</p></details> |
+| prettier-plugin-react | 1 |  |  | 141 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>Created: Mon Jan 27 2025</p><p>Updated: Sun May 25 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
