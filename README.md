@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| gitpick | 105 |  | 1 | 785 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
+| gitpick | 105 |  |  | 1021 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
 | awesome-templates | 11 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
 | better-start | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-start">Link</a></summary><br/><p>Created: Mon Jun 02 2025</p><p>Updated: Fri Jun 27 2025</p></details> |
 | karabiner-human-config | 26 | 1 | 1 | 7 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Tue Jun 24 2025</p></details> |
@@ -42,7 +42,7 @@
 | lazy-dev | 2 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/lazy-dev">Link</a></summary><br/><p>LazyDev - A Next.js/React development tool crafted for use within Next.js or React frameworks, streamlining navigation and bookmarking across pages. More features to come shortly.</p><p>Created: Mon Apr 22 2024</p><p>Updated: Fri Dec 13 2024</p></details> |
 | verosearch-prowlarr | 2 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/verosearch-prowlarr">Link</a></summary><br/><p>Torrent search engine (user interface) for Prowlarr</p><p>Created: Wed Aug 17 2022</p><p>Updated: Mon Oct 02 2023</p></details> |
 | pglaunch | 1 | 1 |  | 13 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Generate multiple PostgreSQL connection strings/databases using CLI for development environments!</p><p>Created: Tue Oct 31 2023</p><p>Updated: Mon Jun 02 2025</p></details> |
-| prettier-plugin-react | 1 |  |  | 141 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>Created: Mon Jan 27 2025</p><p>Updated: Sun May 25 2025</p></details> |
+| prettier-plugin-react | 1 |  |  | 134 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>Created: Mon Jan 27 2025</p><p>Updated: Sun May 25 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
