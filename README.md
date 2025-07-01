@@ -23,9 +23,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 11 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Jun 30 2025</p></details> |
+| awesome-templates | 11 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Jul 01 2025</p></details> |
 | gitpick | 106 |  |  | 1021 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Jun 30 2025</p></details> |
-| next.js-assistant | 1 |  | 1 | 3 | <details><summary><a href="https://github.com/nrjdalal/next.js-assistant">Link</a></summary><br/><p>Created: Fri Jan 10 2025</p><p>Updated: Mon Jun 30 2025</p></details> |
+| next.js-assistant | 1 |  |  | 22 | <details><summary><a href="https://github.com/nrjdalal/next.js-assistant">Link</a></summary><br/><p>Created: Fri Jan 10 2025</p><p>Updated: Mon Jun 30 2025</p></details> |
 | github-dashboard | 1 |  |  | 27 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
 | better-start | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-start">Link</a></summary><br/><p>Created: Mon Jun 02 2025</p><p>Updated: Fri Jun 27 2025</p></details> |
 | karabiner-human-config | 26 | 1 | 1 | 7 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Tue Jun 24 2025</p></details> |
