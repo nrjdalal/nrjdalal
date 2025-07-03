@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| awesome-templates | 11 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Jul 03 2025</p></details> |
 | zshify | 3 |  |  | 60 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Wed Jul 02 2025</p></details> |
-| awesome-templates | 11 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Jul 02 2025</p></details> |
 | gitpick | 108 |  | 1 | 1021 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Jul 02 2025</p></details> |
 | next.js-assistant | 1 |  |  | 22 | <details><summary><a href="https://github.com/nrjdalal/next.js-assistant">Link</a></summary><br/><p>Created: Fri Jan 10 2025</p><p>Updated: Mon Jun 30 2025</p></details> |
 | github-dashboard | 1 |  |  | 27 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
