@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 12 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Jul 31 2025</p></details> |
+| awesome-templates | 12 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Aug 01 2025</p></details> |
 | gitpick | 129 | 1 | 1 | 670 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Jul 31 2025</p></details> |
 | better-next | 9 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-next">Link</a></summary><br/><p>Add better-auth using a single commad, or use the template itself, built for Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry</p><p>Created: Sat Mar 08 2025</p><p>Updated: Thu Jul 31 2025</p></details> |
 | msid | 1 |  |  | 3 | <details><summary><a href="https://github.com/nrjdalal/msid">Link</a></summary><br/><p>Minimal, monotonic, URL-safe, Client-first, reversible date-based IDs - just 7 chars for millisecond precision!</p><p>Created: Sun Jul 13 2025</p><p>Updated: Thu Jul 31 2025</p></details> |
