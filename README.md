@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| gitpick | 135 | 1 | 1 | 692 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Aug 09 2025</p></details> |
 | awesome-templates | 12 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Aug 09 2025</p></details> |
+| gitpick | 135 | 1 | 1 | 692 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Aug 09 2025</p></details> |
 | tailwind-animate | 4 |  |  | 5686 | <details><summary><a href="https://github.com/nrjdalal/tailwind-animate">Link</a></summary><br/><p>A v4.0 compatible Tailwind CSS plugin for creating beautiful animations, replacing `tailwindcss-animate`. Includes custom animations like `accordion-up` and `accordion-down`, and more!</p><p>Created: Tue Mar 18 2025</p><p>Updated: Wed Aug 06 2025</p></details> |
 | smart-registry | 16 |  |  | 100 | <details><summary><a href="https://github.com/nrjdalal/smart-registry">Link</a></summary><br/><p>A zero-configuration (no registry.json required), shadcn add / open in v0 compatible registry builder. With amazing visual feedback like how many dependencies and files are being added to a file/component and much more.</p><p>Created: Wed Feb 26 2025</p><p>Updated: Fri Aug 01 2025</p></details> |
 | better-next | 9 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-next">Link</a></summary><br/><p>Add better-auth using a single commad, or use the template itself, built for Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry</p><p>Created: Sat Mar 08 2025</p><p>Updated: Thu Jul 31 2025</p></details> |
@@ -42,7 +42,7 @@
 | lazy-dev | 2 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/lazy-dev">Link</a></summary><br/><p>LazyDev - A Next.js/React development tool crafted for use within Next.js or React frameworks, streamlining navigation and bookmarking across pages. More features to come shortly.</p><p>Created: Mon Apr 22 2024</p><p>Updated: Fri Dec 13 2024</p></details> |
 | verosearch-prowlarr | 2 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/verosearch-prowlarr">Link</a></summary><br/><p>Torrent search engine (user interface) for Prowlarr</p><p>Created: Wed Aug 17 2022</p><p>Updated: Mon Oct 02 2023</p></details> |
 | next.js-assistant | 1 |  |  | 0 | <details><summary><a href="https://github.com/nrjdalal/next.js-assistant">Link</a></summary><br/><p>Created: Fri Jan 10 2025</p><p>Updated: Mon Jun 30 2025</p></details> |
-| github-dashboard | 1 |  |  | 22 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
+| github-dashboard | 1 |  |  | 21 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
