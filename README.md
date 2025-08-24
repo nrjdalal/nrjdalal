@@ -42,7 +42,7 @@
 | lazy-dev | 2 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/lazy-dev">Link</a></summary><br/><p>LazyDev - A Next.js/React development tool crafted for use within Next.js or React frameworks, streamlining navigation and bookmarking across pages. More features to come shortly.</p><p>Created: Mon Apr 22 2024</p><p>Updated: Fri Dec 13 2024</p></details> |
 | verosearch-prowlarr | 2 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/verosearch-prowlarr">Link</a></summary><br/><p>Torrent search engine (user interface) for Prowlarr</p><p>Created: Wed Aug 17 2022</p><p>Updated: Mon Oct 02 2023</p></details> |
 | next.js-assistant | 1 |  |  | 2 | <details><summary><a href="https://github.com/nrjdalal/next.js-assistant">Link</a></summary><br/><p>Created: Fri Jan 10 2025</p><p>Updated: Mon Jun 30 2025</p></details> |
-| github-dashboard | 1 |  |  | 25 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
+| github-dashboard | 1 |  |  | 23 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
