@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 12 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Sep 01 2025</p></details> |
+| awesome-templates | 12 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Sep 02 2025</p></details> |
 | shadcn-ui-snippets | 110 | 5 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/shadcn-ui-snippets">Link</a></summary><br/><p>Simply import and use shadcn-ui components in your project</p><p>Created: Fri Oct 27 2023</p><p>Updated: Sun Aug 31 2025</p></details> |
 | gitpick | 148 | 1 | 1 | 460 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Aug 31 2025</p></details> |
 | rdt-li | 252 | 20 |  |  | <details><summary><a href="https://github.com/nrjdalal/rdt-li">Link</a></summary><br/><p>rdt.li self hostable, feature rich, minimalistic and open source URL shortener. Built with Next.js, Drizzle, NextAuth and Postgres.</p><p>Created: Sun Nov 05 2023</p><p>Updated: Wed Aug 27 2025</p></details> |
@@ -41,7 +41,7 @@
 | colorwindcss | 2 |  |  | 22 | <details><summary><a href="https://github.com/nrjdalal/colorwindcss">Link</a></summary><br/><p>Need to know your colors better? Identify which Tailwind colors are used in your CSS files with `colorwindcss`!</p><p>Created: Sat Apr 19 2025</p><p>Updated: Tue May 20 2025</p></details> |
 | lazy-dev | 2 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/lazy-dev">Link</a></summary><br/><p>LazyDev - A Next.js/React development tool crafted for use within Next.js or React frameworks, streamlining navigation and bookmarking across pages. More features to come shortly.</p><p>Created: Mon Apr 22 2024</p><p>Updated: Fri Dec 13 2024</p></details> |
 | verosearch-prowlarr | 2 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/verosearch-prowlarr">Link</a></summary><br/><p>Torrent search engine (user interface) for Prowlarr</p><p>Created: Wed Aug 17 2022</p><p>Updated: Mon Oct 02 2023</p></details> |
-| next.js-assistant | 1 |  |  | 11 | <details><summary><a href="https://github.com/nrjdalal/next.js-assistant">Link</a></summary><br/><p>Created: Fri Jan 10 2025</p><p>Updated: Mon Jun 30 2025</p></details> |
+| next.js-assistant | 1 |  |  | 2 | <details><summary><a href="https://github.com/nrjdalal/next.js-assistant">Link</a></summary><br/><p>Created: Fri Jan 10 2025</p><p>Updated: Mon Jun 30 2025</p></details> |
 | github-dashboard | 1 |  |  | 25 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sun Jun 29 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
