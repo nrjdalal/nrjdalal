@@ -1,3 +1,2 @@
 - frontend tech stack - next.js 15 app router, typescript, tailwindcss, shadcn, zod, react-query, react-hook-form, drizzle, better-auth
-- backend tech stack - hono
 - always return the entire file/snippet unchanged except for the requested edits, ensuring the output has the correct total number of lines after replacements or insertions (e.g., replacing 1 line with 16 makes the file longer, adding lines increases the count), and never output only the changed parts
