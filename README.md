@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| gitpick | 184 | 2 | 2 | 1167 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Oct 08 2025</p></details> |
 | awesome-templates | 13 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Oct 08 2025</p></details> |
+| gitpick | 184 | 2 | 2 | 1167 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Oct 08 2025</p></details> |
 | zshify | 3 |  |  | 35 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Tue Oct 07 2025</p></details> |
 | JioTV-Next | 37 | 32 |  |  | <details><summary><a href="https://github.com/nrjdalal/JioTV-Next">Link</a></summary><br/><p>JioTV HD Streaming Free on Browser / Android / Android TV</p><p>Created: Sun Aug 28 2022</p><p>Updated: Tue Oct 07 2025</p></details> |
 | rdt-li | 252 | 20 |  |  | <details><summary><a href="https://github.com/nrjdalal/rdt-li">Link</a></summary><br/><p>rdt.li self hostable, feature rich, minimalistic and open source URL shortener. Built with Next.js, Drizzle, NextAuth and Postgres.</p><p>Created: Sun Nov 05 2023</p><p>Updated: Mon Oct 06 2025</p></details> |
