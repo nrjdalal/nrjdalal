@@ -23,9 +23,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| gitpick | 194 | 3 | 2 | 1137 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Oct 22 2025</p></details> |
 | awesome-templates | 13 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Oct 22 2025</p></details> |
 | nrjdalal.com | 3 |  | 1 |  | <details><summary><a href="https://github.com/nrjdalal/nrjdalal.com">Link</a></summary><br/><p>Created: Sat Feb 15 2025</p><p>Updated: Wed Oct 22 2025</p></details> |
-| gitpick | 193 | 3 | 2 | 1137 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Oct 21 2025</p></details> |
 | JioTV-Next | 38 | 32 |  |  | <details><summary><a href="https://github.com/nrjdalal/JioTV-Next">Link</a></summary><br/><p>JioTV HD Streaming Free on Browser / Android / Android TV</p><p>Created: Sun Aug 28 2022</p><p>Updated: Mon Oct 20 2025</p></details> |
 | demo-unique-errors |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/demo-unique-errors">Link</a></summary><br/><p>Created: Mon Oct 20 2025</p><p>Updated: Mon Oct 20 2025</p></details> |
 | karabiner-human-config | 33 | 1 | 1 | 4 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Mon Oct 20 2025</p></details> |
