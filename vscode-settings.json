@@ -1,0 +1,191 @@
+{
+  // ~ css
+  "css.lint.unknownAtRules": "ignore",
+
+  // ~ chat
+  "chat.agent.enabled": true,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true
+  },
+
+  // ~ editor
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[hosts]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.fontFamily": "\"Berkeley Mono\", monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.insertSpaces": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": []
+  },
+  "editor.wordWrap": "on",
+  "editor.wrappingStrategy": "advanced",
+
+  // ~ diff editor
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // ~ emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // ~ explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "filesFirst",
+
+  // ~ files
+  "files.associations": {
+    ".env*": "dotenv",
+    "*.css": "tailwindcss",
+    "*.json": "jsonc"
+  },
+
+  // ~ git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
+
+  // ~ github pull requests
+  "githubPullRequests.fileListLayout": "tree",
+
+  // ~ security
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // ~ telemetry
+  "telemetry.telemetryLevel": "off",
+
+  // ~ terminal
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.scrollback": 100000,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.splitCwd": "workspaceRoot",
+
+  // ~ workbench
+  "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname}",
+    "**/app/**/layout.tsx": "${dirname}",
+    "**/app/**/route.ts": "${dirname}"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+
+  // ~ @extension - better comments
+  "better-comments.tags": [
+    {
+      "tag": "~",
+      "color": "black",
+      "backgroundColor": "#99999999"
+    }
+  ],
+
+  // ~ @extension - docker
+  "docker.extension.enableComposeLanguageServer": false,
+
+  // ~ @extension - dotenv
+  "dotenv.enableAutocloaking": false,
+
+  // ~ @extension - github copilot
+  "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  "github.copilot.chat.languageContext.typescript.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true
+  },
+
+  // ~ @extension - github pull requests
+
+  "githubPullRequests.experimental.chat": true,
+
+  // ~ @extension - material icon theme
+  "material-icon-theme.files.associations": {
+    ".env.production-db": "database",
+    "page.tsx": "page.tsx",
+    "route.ts": "bruno",
+    "view.tsx": "view.tsx"
+  },
+  "material-icon-theme.files.customClones": [
+    {
+      "name": "page.tsx",
+      "base": "document",
+      "color": "blue-400"
+    },
+    {
+      "name": "view.tsx",
+      "base": "gemini",
+      "color": "green-400"
+    }
+  ],
+
+  // ~ @extension - prettier
+  "prettier.semi": false,
+
+  // ~ @extension - tailwindcss
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/.hg/**",
+    "**/.svn/**",
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/public/**"
+  ]
+}
