@@ -42,7 +42,7 @@
 | lazy-dev | 2 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/lazy-dev">Link</a></summary><br/><p>LazyDev - A Next.js/React development tool crafted for use within Next.js or React frameworks, streamlining navigation and bookmarking across pages. More features to come shortly.</p><p>Created: Mon Apr 22 2024</p><p>Updated: Fri Dec 13 2024</p></details> |
 | verosearch-prowlarr | 2 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/verosearch-prowlarr">Link</a></summary><br/><p>Torrent search engine (user interface) for Prowlarr</p><p>Created: Wed Aug 17 2022</p><p>Updated: Mon Oct 02 2023</p></details> |
 | prettier-plugin-react | 1 |  |  | 48 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>WIP</p><p>Created: Mon Jan 27 2025</p><p>Updated: Sun Sep 21 2025</p></details> |
-| msid | 1 |  |  | 11 | <details><summary><a href="https://github.com/nrjdalal/msid">Link</a></summary><br/><p>Minimal, monotonic, URL-safe, Client-first, reversible date-based IDs - just 7 chars for millisecond precision!</p><p>Created: Sun Jul 13 2025</p><p>Updated: Thu Sep 18 2025</p></details> |
+| msid | 1 |  |  | 8 | <details><summary><a href="https://github.com/nrjdalal/msid">Link</a></summary><br/><p>Minimal, monotonic, URL-safe, Client-first, reversible date-based IDs - just 7 chars for millisecond precision!</p><p>Created: Sun Jul 13 2025</p><p>Updated: Thu Sep 18 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
