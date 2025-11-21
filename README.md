@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| gitpick | 218 | 4 | 2 | 3169 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Nov 20 2025</p></details> |
 | awesome-templates | 18 | 2 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Nov 20 2025</p></details> |
-| gitpick | 217 | 4 | 2 | 3169 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Nov 19 2025</p></details> |
 | karabiner-human-config | 34 | 1 | 1 | 207 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Wed Nov 19 2025</p></details> |
 | shadcn-ui-snippets | 113 | 7 | 2 |  | <details><summary><a href="https://github.com/nrjdalal/shadcn-ui-snippets">Link</a></summary><br/><p>Simply import and use shadcn-ui components in your project</p><p>Created: Fri Oct 27 2023</p><p>Updated: Wed Nov 19 2025</p></details> |
 | zshify | 3 |  |  | 5 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Sat Nov 15 2025</p></details> |
@@ -42,7 +42,7 @@
 | verosearch-prowlarr | 2 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/verosearch-prowlarr">Link</a></summary><br/><p>Torrent search engine (user interface) for Prowlarr</p><p>Created: Wed Aug 17 2022</p><p>Updated: Mon Oct 02 2023</p></details> |
 | github-dashboard | 1 |  |  | 25 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sun Oct 12 2025</p></details> |
 | prettier-plugin-react | 1 |  |  | 50 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>WIP</p><p>Created: Mon Jan 27 2025</p><p>Updated: Sun Sep 21 2025</p></details> |
-| msid | 1 |  |  | 8 | <details><summary><a href="https://github.com/nrjdalal/msid">Link</a></summary><br/><p>Minimal, monotonic, URL-safe, Client-first, reversible date-based IDs - just 7 chars for millisecond precision!</p><p>Created: Sun Jul 13 2025</p><p>Updated: Thu Sep 18 2025</p></details> |
+| msid | 1 |  |  | 5 | <details><summary><a href="https://github.com/nrjdalal/msid">Link</a></summary><br/><p>Minimal, monotonic, URL-safe, Client-first, reversible date-based IDs - just 7 chars for millisecond precision!</p><p>Created: Sun Jul 13 2025</p><p>Updated: Thu Sep 18 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
