@@ -42,7 +42,7 @@
 | verosearch-prowlarr | 2 | 1 |  |  | <details><summary><a href="https://github.com/nrjdalal/verosearch-prowlarr">Link</a></summary><br/><p>Torrent search engine (user interface) for Prowlarr</p><p>Created: Wed Aug 17 2022</p><p>Updated: Mon Oct 02 2023</p></details> |
 | github-dashboard | 1 |  |  | 22 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sun Oct 12 2025</p></details> |
 | prettier-plugin-react | 1 |  |  | 34 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>WIP</p><p>Created: Mon Jan 27 2025</p><p>Updated: Sun Sep 21 2025</p></details> |
-| msid | 1 |  |  | 5 | <details><summary><a href="https://github.com/nrjdalal/msid">Link</a></summary><br/><p>Minimal, monotonic, URL-safe, Client-first, reversible date-based IDs - just 7 chars for millisecond precision!</p><p>Created: Sun Jul 13 2025</p><p>Updated: Thu Sep 18 2025</p></details> |
+| msid | 1 |  |  | 18 | <details><summary><a href="https://github.com/nrjdalal/msid">Link</a></summary><br/><p>Minimal, monotonic, URL-safe, Client-first, reversible date-based IDs - just 7 chars for millisecond precision!</p><p>Created: Sun Jul 13 2025</p><p>Updated: Thu Sep 18 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
