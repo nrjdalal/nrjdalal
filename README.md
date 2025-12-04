@@ -10,7 +10,7 @@
 
 - Email - [nrjdalal.dev@gmail.com](mailto:nrjdalal.dev@gmail.com)
 - Website - [nrjdalal.com](https://nrjdalal.com)
-- Twitter - [x.com/nrjdalal_dev](https://x.com/nrjdalal_dev)
+- Twitter - [x.com/nrjdalal](https://x.com/nrjdalal)
 
 ---
 
