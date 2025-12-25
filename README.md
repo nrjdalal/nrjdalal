@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| zerostarter | 19 | 7 | 10 | 0 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Thu Dec 25 2025</p></details> |
+| zerostarter | 19 | 7 | 8 | 0 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Thu Dec 25 2025</p></details> |
 | awesome-templates | 22 | 2 | 10 |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Dec 25 2025</p></details> |
 | gitpick | 234 | 3 | 9 | 4658 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Dec 23 2025</p></details> |
 | karabiner-human-config | 37 | 1 | 9 | 33 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Mon Dec 22 2025</p></details> |
