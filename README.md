@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| zerostarter | 20 | 7 | 7 | 82 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Wed Dec 31 2025</p></details> |
 | awesome-templates | 22 | 2 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Dec 31 2025</p></details> |
+| zerostarter | 20 | 7 | 7 | 82 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Wed Dec 31 2025</p></details> |
 | shadcn-ui-snippets | 116 | 7 | 3 |  | <details><summary><a href="https://github.com/nrjdalal/shadcn-ui-snippets">Link</a></summary><br/><p>Simply import and use shadcn-ui components in your project</p><p>Created: Fri Oct 27 2023</p><p>Updated: Tue Dec 30 2025</p></details> |
 | gitpick | 239 | 4 | 9 | 3882 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Dec 30 2025</p></details> |
 | JioTV-Next | 38 | 33 | 10 |  | <details><summary><a href="https://github.com/nrjdalal/JioTV-Next">Link</a></summary><br/><p>JioTV HD Streaming Free on Browser / Android / Android TV</p><p>Created: Sun Aug 28 2022</p><p>Updated: Sat Dec 27 2025</p></details> |
