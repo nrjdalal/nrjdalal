@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| zerostarter | 22 | 7 | 8 | 3 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Fri Jan 09 2026</p></details> |
+| zerostarter | 24 | 9 | 9 | 3 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Fri Jan 09 2026</p></details> |
 | awesome-templates | 23 | 2 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Jan 09 2026</p></details> |
 | gitpick | 246 | 4 | 8 | 5963 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Jan 09 2026</p></details> |
 | tailwind-animate | 7 |  | 6 | 11319 | <details><summary><a href="https://github.com/nrjdalal/tailwind-animate">Link</a></summary><br/><p>A v4.0 compatible Tailwind CSS plugin for creating beautiful animations, replacing `tailwindcss-animate`. Includes custom animations like `accordion-up` and `accordion-down`, and more!</p><p>Created: Tue Mar 18 2025</p><p>Updated: Fri Jan 02 2026</p></details> |
