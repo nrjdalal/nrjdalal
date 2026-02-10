@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| zerostarter | 41 | 10 | 12 | 1 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Mon Feb 09 2026</p></details> |
+| zerostarter | 42 | 10 | 12 | 1 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Mon Feb 09 2026</p></details> |
 | awesome-templates | 25 | 2 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Feb 09 2026</p></details> |
 | gitpick | 268 | 4 | 9 | 6366 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Feb 09 2026</p></details> |
 | rdt-li | 256 | 20 | 10 |  | <details><summary><a href="https://github.com/nrjdalal/rdt-li">Link</a></summary><br/><p>rdt.li self hostable, feature rich, minimalistic and open source URL shortener. Built with Next.js, Drizzle, NextAuth and Postgres.</p><p>Created: Sun Nov 05 2023</p><p>Updated: Sun Feb 08 2026</p></details> |
@@ -41,7 +41,7 @@
 | github-dashboard | 3 |  | 8 | 24 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sat Dec 20 2025</p></details> |
 | colorwindcss | 3 |  | 6 | 34 | <details><summary><a href="https://github.com/nrjdalal/colorwindcss">Link</a></summary><br/><p>Need to know your colors better? Identify which Tailwind colors are used in your CSS files with `colorwindcss`!</p><p>Created: Sat Apr 19 2025</p><p>Updated: Sat Dec 20 2025</p></details> |
 | nrjdalal.com | 3 |  | 10 |  | <details><summary><a href="https://github.com/nrjdalal/nrjdalal.com">Link</a></summary><br/><p>Created: Sat Feb 15 2025</p><p>Updated: Thu Oct 23 2025</p></details> |
-| pglaunch | 2 | 1 | 6 | 14 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Generate multiple PostgreSQL connection strings/databases using CLI for development environments!</p><p>Created: Tue Oct 31 2023</p><p>Updated: Sat Dec 20 2025</p></details> |
+| pglaunch | 2 | 1 | 6 | 3 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Generate multiple PostgreSQL connection strings/databases using CLI for development environments!</p><p>Created: Tue Oct 31 2023</p><p>Updated: Sat Dec 20 2025</p></details> |
 | better-start | 2 |  | 6 |  | <details><summary><a href="https://github.com/nrjdalal/better-start">Link</a></summary><br/><p>Created: Mon Jun 02 2025</p><p>Updated: Wed Jul 30 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
