@@ -23,9 +23,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| zerostarter | 45 | 10 | 13 | 0 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Sat Mar 07 2026</p></details> |
 | awesome-templates | 25 | 2 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Mar 07 2026</p></details> |
 | gitpick | 280 | 5 | 9 | 6680 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Mar 04 2026</p></details> |
-| zerostarter | 45 | 10 | 15 | 0 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Wed Mar 04 2026</p></details> |
 | mintlify-docs |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/mintlify-docs">Link</a></summary><br/><p>Created: Tue Mar 03 2026</p><p>Updated: Tue Mar 03 2026</p></details> |
 | virtual-next-routes | 12 |  | 3 | 5 | <details><summary><a href="https://github.com/nrjdalal/virtual-next-routes">Link</a></summary><br/><p>Next.js App Router style file-system routing for TanStack Start (and TanStack Router).</p><p>Created: Wed May 28 2025</p><p>Updated: Tue Feb 24 2026</p></details> |
 | npmignore | 1 |  | 8 |  | <details><summary><a href="https://github.com/nrjdalal/npmignore">Link</a></summary><br/><p>npmignore - search engine for npm but on steroids, ignoring the mess of npm</p><p>Created: Sun Dec 08 2024</p><p>Updated: Mon Feb 16 2026</p></details> |
