@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| zerostarter | 45 | 10 | 13 | 1 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Tue Mar 10 2026</p></details> |
 | awesome-templates | 25 | 2 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Mar 10 2026</p></details> |
-| zerostarter | 45 | 10 | 14 | 0 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Sun Mar 08 2026</p></details> |
 | gitpick | 281 | 5 | 9 | 6981 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Mar 08 2026</p></details> |
 | mintlify-docs |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/mintlify-docs">Link</a></summary><br/><p>Created: Tue Mar 03 2026</p><p>Updated: Tue Mar 03 2026</p></details> |
 | virtual-next-routes | 12 |  | 3 | 22 | <details><summary><a href="https://github.com/nrjdalal/virtual-next-routes">Link</a></summary><br/><p>Next.js App Router style file-system routing for TanStack Start (and TanStack Router).</p><p>Created: Wed May 28 2025</p><p>Updated: Tue Feb 24 2026</p></details> |
