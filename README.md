@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| gitpick | 283 | 5 | 3 | 4253 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Mar 22 2026</p></details> |
 | picksuite |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/picksuite">Link</a></summary><br/><p>Created: Sat Mar 21 2026</p><p>Updated: Sat Mar 21 2026</p></details> |
-| gitpick | 283 | 5 | 4 | 4253 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Mar 21 2026</p></details> |
 | awesome-templates | 25 | 2 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Mar 21 2026</p></details> |
 | zerostarter | 49 | 11 | 16 | 0 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Fri Mar 20 2026</p></details> |
 | zshify | 5 |  |  | 95 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Thu Mar 19 2026</p></details> |
@@ -40,7 +40,7 @@
 | google-parser | 18 |  | 3 | 4 | <details><summary><a href="https://github.com/nrjdalal/google-parser">Link</a></summary><br/><p>HTTP based Google Search Results scraper/parser</p><p>Created: Wed Jun 14 2023</p><p>Updated: Thu Sep 18 2025</p></details> |
 | better-next | 13 |  | 10 |  | <details><summary><a href="https://github.com/nrjdalal/better-next">Link</a></summary><br/><p>Add better-auth using a single commad, or use the template itself, built for Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry</p><p>Created: Sat Mar 08 2025</p><p>Updated: Sat Dec 20 2025</p></details> |
 | start-pro | 4 |  | 9 |  | <details><summary><a href="https://github.com/nrjdalal/start-pro">Link</a></summary><br/><p>Created: Sun Dec 07 2025</p><p>Updated: Mon Dec 08 2025</p></details> |
-| github-dashboard | 3 |  | 8 | 38 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sat Dec 20 2025</p></details> |
+| github-dashboard | 3 |  | 8 | 24 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Sat Dec 20 2025</p></details> |
 | colorwindcss | 3 |  | 6 | 23 | <details><summary><a href="https://github.com/nrjdalal/colorwindcss">Link</a></summary><br/><p>Need to know your colors better? Identify which Tailwind colors are used in your CSS files with `colorwindcss`!</p><p>Created: Sat Apr 19 2025</p><p>Updated: Sat Dec 20 2025</p></details> |
 | nrjdalal.com | 3 |  | 10 |  | <details><summary><a href="https://github.com/nrjdalal/nrjdalal.com">Link</a></summary><br/><p>Created: Sat Feb 15 2025</p><p>Updated: Thu Oct 23 2025</p></details> |
 
