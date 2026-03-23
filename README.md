@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| gitpick | 283 | 5 | 1 | 11546 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Mar 22 2026</p></details> |
 | awesome-templates | 25 | 2 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Mar 22 2026</p></details> |
+| gitpick | 283 | 5 | 1 | 11546 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Mar 22 2026</p></details> |
 | picksuite |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/picksuite">Link</a></summary><br/><p>Created: Sat Mar 21 2026</p><p>Updated: Sat Mar 21 2026</p></details> |
 | zerostarter | 49 | 11 | 17 | 0 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Fri Mar 20 2026</p></details> |
 | zshify | 5 |  |  | 95 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Thu Mar 19 2026</p></details> |
