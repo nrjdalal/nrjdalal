@@ -31,22 +31,22 @@ css: |
 
 ## Summary
 
-Crafting software that makes a difference. I build developer tools and infrastructure, and experiment with new technologies and ideas. Currently building ZeroStarter - go from 0 to production in 15 minutes - while working on AI-powered property management at LightWork AI.
+Web Developer crafting software that makes a difference. Building developer tools and SaaS infrastructure, experimenting with new technologies and ideas. Currently building ZeroStarter - go from 0 to production in 15 minutes - while working on AI-powered property management at LightWork AI.
 
 ## Projects
 
 - **[ZeroStarter](https://zerostarter.dev)** - Go from 0 to production in 15 minutes.
-- **[GitPick](https://github.com/nrjdalal/gitpick)** - Clone exactly what you need aka straightforward project scaffolding!
+- **[GitPick](https://github.com/nrjdalal/gitpick)** - Clone exactly what you need - straightforward project scaffolding.
 - **[Smart Registry](https://github.com/nrjdalal/smart-registry)** - A zero-configuration (no registry.json required), shadcn add / open in v0 compatible registry builder.
-- **[Karabiner Human Config](https://github.com/nrjdalal/karabiner-human-config)** - The easiest way to write Karabiner-Elements configuration files, ever!
-- **[pglaunch](https://github.com/nrjdalal/pglaunch)** - Generate multiple PostgreSQL connection strings/databases using CLI for development environments!
-- **[Spacewall](https://github.com/nrjdalal/spacewall)** - Spacewall is an open-source, Linktree-like website builder.
+- **[Karabiner Human Config](https://github.com/nrjdalal/karabiner-human-config)** - The easiest way to write Karabiner-Elements configuration files.
+- **[pglaunch](https://github.com/nrjdalal/pglaunch)** - Generate multiple PostgreSQL connection strings and databases using a CLI for development environments.
+- **[Spacewall](https://github.com/nrjdalal/spacewall)** - An open-source, Linktree-like website builder.
 - **[Awesome Templates](https://github.com/nrjdalal/awesome-templates)** - Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.
 - **[Redirect.link](https://rdt.li)** - Self hostable, feature rich, minimalistic and open source URL shortener.
 
 *...and many more npm packages, CLIs, VS Code extensions, and open-source repositories at [zerostarter.dev/hire](https://zerostarter.dev/hire) and [github.com/nrjdalal](https://github.com/nrjdalal).*
 
-## Work
+## Experience
 
 ### [LightWork AI](https://lightwork.co) - Product Engineer
 *London, UK (Remote) · Jun 2025 - Present*
@@ -56,22 +56,22 @@ AI-powered property management platform that automates tasks, streamlines tenant
 - Building AI agent execution tooling with the Vercel AI SDK and OpenAI Agents SDK, and shipping core dashboard services (chat, property, and user/org management) across a TypeScript monorepo.
 - Owning microservices isolation, internal CLIs, and developer-experience tooling that tighten the local-to-prod feedback loop.
 - Implementing multi-tenant authentication and role-based access control covering organizations, invites, and permissioned resource access.
-- Instrumenting product analytics, logging, and observability with PostHog to close the loop between feature decisions and real user behavior.
+- Instrumenting product analytics, logging, and observability with PostHog to close the loop between feature decisions and user behavior.
 
-### Independent - Developer Tools & Infrastructure
-*Oct 2023 - Present*
+### Independent - Open Source Maintainer & Consultant
+*Oct 2023 - Present (alongside full-time)*
 
-- Author and maintainer of open-source npm packages, CLIs, and VS Code extensions with thousands of cumulative installs and GitHub stars.
-- Contributor to major open-source projects including ui.shadcn.com, originui.com, and tanstack.com; tools used in production by teams at TanStack, SST, and Electric SQL.
+- Author and maintain a portfolio of open-source npm packages, CLIs, and VS Code extensions with thousands of cumulative installs and GitHub stars.
+- Contribute to major open-source projects including shadcn/ui, Origin UI, and TanStack, with tools used in production by teams at TanStack, SST, and Electric SQL.
 - Delivered client engagements across website-builder, e-commerce, and SaaS domains end-to-end, from architecture to deployment.
 
 ### Warewe - Senior Developer
 *New Delhi · Sep 2022 - Sep 2023*
 
-- Hetrolinks (SAAS) - instantly repairs broken Amazon affiliate links across affiliate blogs and websites. Engineered AWS Lambda as proxies to bypass amazon.com captcha, saving ~90% of cost vs. buying proxies. Designed an advanced scraper capable of 2,000+ pages in 5-10 minutes, finding broken affiliate links and site vulnerabilities.
-- Migrated Hetrolinks backend from Python to Node.js + AWS Lambda with 50% performance improvement; implemented queue and rate-limit systems for concurrent requests.
-- SerpWe (SAAS) - generates keyword ideas and organizes them into topical clusters. Built frontend, backend, and serverless APIs end-to-end, reusing improvements from Hetrolinks. Ran Puppeteer on AWS Lambda to scrape thousands of Google search results.
-- Built highly performant clustering APIs (with a 5% Python child-process split for performance) and authored the complete Next.js admin dashboard using TanStack Query and Tailwind CSS.
+- Engineered AWS Lambda as proxies to bypass amazon.com CAPTCHA for Hetrolinks (SaaS that repairs broken Amazon affiliate links), saving ~90% of cost vs. buying proxies and scraping 2,000+ pages in 5-10 minutes.
+- Migrated the Hetrolinks backend from Python to Node.js on AWS Lambda with 50% performance improvement, and implemented queue and rate-limit systems for concurrent requests.
+- Built SerpWe (SaaS for keyword ideas and topical clustering) end-to-end - frontend, backend, and serverless APIs - running Puppeteer on AWS Lambda to scrape thousands of Google search results.
+- Delivered highly performant clustering APIs (with a 5% Python child-process split for performance) and authored the complete Next.js admin dashboard using TanStack Query and Tailwind CSS.
 
 ### VeroXyle - Full-Stack Developer
 *New Delhi · May 2020 - Aug 2022*
@@ -92,11 +92,11 @@ AI-powered property management platform that automates tasks, streamlines tenant
 
 **Frontend:** React, Next.js, Tailwind CSS, shadcn/ui, TanStack Query, React Hook Form, SSR, SSG, SPA, PWA, State Management, Accessibility, Web Performance Optimization, Web Vitals, Responsive Design
 
-**Backend:** Node.js, Bun, Hono, Hono RPC, Elysia, Express, REST APIs, GraphQL, Drizzle ORM, PostgreSQL, Redis, Better Auth, OAuth, JWT, API Design, Authentication, Authorization, Caching, Rate Limiting, Queues, CRON Jobs, Microservices, Serverless, WebSockets
+**Backend:** Node.js, Bun, Hono, Hono RPC, Elysia, Express, REST APIs, Drizzle ORM, PostgreSQL, Redis, Better Auth, OAuth, JWT, API Design, Authentication, Authorization, Caching, Rate Limiting, Queues, CRON Jobs, Microservices, Serverless
 
-**AI:** Vercel AI SDK, OpenAI Agents SDK, LLM Tool Calling, Agent Orchestration, Prompt Engineering, RAG, Streaming, Embeddings
+**AI:** Vercel AI SDK, OpenAI Agents SDK, LLM Tool Calling, Agent Orchestration, Prompt Engineering, RAG, Streaming Responses, Embeddings
 
-**DevOps:** Docker, Containerization, CI/CD, GitHub Actions, Turborepo, Monorepos, Vercel, PostHog, Logging, Monitoring, Observability, Alerting, Incident Response
+**DevOps:** Docker, Containerization, CI/CD, GitHub Actions, Turborepo, Monorepos, Vercel, PostHog, Logging, Monitoring, Observability
 
 **AWS:** Lambda, API Gateway, CloudFront, CloudWatch, S3, EC2, RDS, SES, SQS, IAM, Route 53
 
@@ -104,8 +104,6 @@ AI-powered property management platform that automates tasks, streamlines tenant
 
 ## Education
 
-### Delhi Technical Campus (GGSIPU) - B.Tech, Electronics and Communication Engineering
-*Aug 2016 - Jun 2020*
+**Delhi Technical Campus (GGSIPU)** - B.Tech, ECE · *Aug 2016 - Jun 2020*
 
-### Kendriya Vidyalaya Andrews Ganj, New Delhi - High School (10th / 12th), CBSE
-*Apr 2014 - Apr 2016*
+**Kendriya Vidyalaya Andrews Ganj** - High School, CBSE · *Apr 2014 - Apr 2016*
