@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| zerostarter | 49 | 12 | 20 | 6 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Fri Apr 17 2026</p></details> |
 | awesome-templates | 25 | 3 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Apr 17 2026</p></details> |
+| zerostarter | 49 | 12 | 20 | 6 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Fri Apr 17 2026</p></details> |
 | gitpick | 296 | 6 | 1 | 8686 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Apr 15 2026</p></details> |
 | wordloom |  |  |  | 442 | <details><summary><a href="https://github.com/nrjdalal/wordloom">Link</a></summary><br/><p>Find short, pronounceable names for brands, products, and projects.</p><p>Created: Mon Apr 06 2026</p><p>Updated: Sat Apr 11 2026</p></details> |
 | karabiner-human-config | 42 | 2 | 6 | 2 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Wed Apr 08 2026</p></details> |
