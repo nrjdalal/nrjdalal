@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| karabiner-human-config | 43 | 2 | 6 | 3 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Mon Apr 20 2026</p></details> |
 | awesome-templates | 25 | 3 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Apr 20 2026</p></details> |
+| karabiner-human-config | 43 | 2 | 6 | 3 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Mon Apr 20 2026</p></details> |
 | picksuite | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/picksuite">Link</a></summary><br/><p>Created: Sat Mar 21 2026</p><p>Updated: Mon Apr 20 2026</p></details> |
 | gitpick | 297 | 8 | 4 | 8686 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Apr 18 2026</p></details> |
 | zerostarter | 49 | 12 | 21 | 6 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Fri Apr 17 2026</p></details> |
