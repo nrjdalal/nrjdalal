@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| gitpick | 301 | 8 | 4 | 7777 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Apr 30 2026</p></details> |
 | awesome-templates | 25 | 3 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Apr 30 2026</p></details> |
-| gitpick | 300 | 8 | 4 | 7777 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Apr 29 2026</p></details> |
 | zerostarter | 50 | 12 | 22 | 3 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Sat Apr 25 2026</p></details> |
 | shadcn-ui-snippets | 117 | 7 | 3 |  | <details><summary><a href="https://github.com/nrjdalal/shadcn-ui-snippets">Link</a></summary><br/><p>Simply import and use shadcn-ui components in your project</p><p>Created: Fri Oct 27 2023</p><p>Updated: Fri Apr 24 2026</p></details> |
 | karabiner-human-config | 43 | 2 | 6 | 8 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Mon Apr 20 2026</p></details> |
