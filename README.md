@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| karabiner-human-config | 46 | 1 | 5 | 37 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Tue May 19 2026</p></details> |
 | awesome-templates | 25 | 5 | 2 |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue May 19 2026</p></details> |
+| karabiner-human-config | 46 | 1 | 5 | 37 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Tue May 19 2026</p></details> |
 | zshify | 6 |  |  | 203 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Mon May 18 2026</p></details> |
 | zerostarter | 51 | 12 | 20 | 3 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Mon May 18 2026</p></details> |
 | gitpick | 305 | 8 | 3 | 3830 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon May 18 2026</p></details> |
