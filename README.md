@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 26 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat May 30 2026</p></details> |
+| awesome-templates | 26 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun May 31 2026</p></details> |
 | gitpick | 308 | 8 | 3 | 5313 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat May 30 2026</p></details> |
 | cloudflare-email-sending |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/cloudflare-email-sending">Link</a></summary><br/><p>Cloudflare Worker that sends transactional email from <alias>@nrjdalal.com via Cloudflare Email Service</p><p>Created: Fri May 22 2026</p><p>Updated: Fri May 29 2026</p></details> |
 | onset | 62 | 2 | 10 |  | <details><summary><a href="https://github.com/nrjdalal/onset">Link</a></summary><br/><p>An open source Next.js bare starter with step-by-step instructions if required. Built with Next.js 14, Drizzle (Postgres), NextAuth/Auth.js.</p><p>Created: Thu Nov 02 2023</p><p>Updated: Thu May 28 2026</p></details> |
