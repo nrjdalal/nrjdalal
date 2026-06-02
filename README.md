@@ -42,7 +42,7 @@
 | start-pro | 4 |  | 9 |  | <details><summary><a href="https://github.com/nrjdalal/start-pro">Link</a></summary><br/><p>Created: Sun Dec 07 2025</p><p>Updated: Mon Dec 08 2025</p></details> |
 | colorwindcss | 3 |  | 6 | 49 | <details><summary><a href="https://github.com/nrjdalal/colorwindcss">Link</a></summary><br/><p>Need to know your colors better? Identify which Tailwind colors are used in your CSS files with `colorwindcss`!</p><p>Created: Sat Apr 19 2025</p><p>Updated: Sat Dec 20 2025</p></details> |
 | nrjdalal.com | 3 |  | 10 |  | <details><summary><a href="https://github.com/nrjdalal/nrjdalal.com">Link</a></summary><br/><p>Created: Sat Feb 15 2025</p><p>Updated: Thu Oct 23 2025</p></details> |
-| pglaunch | 2 | 1 | 5 | 24 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Generate multiple PostgreSQL connection strings/databases using CLI for development environments!</p><p>Created: Tue Oct 31 2023</p><p>Updated: Sat Dec 20 2025</p></details> |
+| pglaunch | 2 | 1 | 5 | 138 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Generate multiple PostgreSQL connection strings/databases using CLI for development environments!</p><p>Created: Tue Oct 31 2023</p><p>Updated: Sat Dec 20 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
