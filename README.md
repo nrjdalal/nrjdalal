@@ -23,7 +23,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| awesome-templates | 27 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Jun 06 2026</p></details> |
+| awesome-templates | 27 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Jun 07 2026</p></details> |
 | gitpick | 311 | 8 | 3 | 6693 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Jun 06 2026</p></details> |
 | zerostarter | 52 | 12 | 32 | 9 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Fri Jun 05 2026</p></details> |
 | cloudflare-email-sending |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/cloudflare-email-sending">Link</a></summary><br/><p>Cloudflare Worker that sends transactional email from <alias>@nrjdalal.com via Cloudflare Email Service</p><p>Created: Fri May 22 2026</p><p>Updated: Fri May 29 2026</p></details> |
