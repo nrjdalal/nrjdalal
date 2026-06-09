@@ -23,9 +23,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| zshify | 8 |  |  | 56 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Mon Jun 08 2026</p></details> |
+| zerostarter | 52 | 12 | 14 | 9 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Tue Jun 09 2026</p></details> |
 | awesome-templates | 27 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Jun 08 2026</p></details> |
-| zerostarter | 52 | 12 | 14 | 9 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Mon Jun 08 2026</p></details> |
+| zshify | 8 |  |  | 56 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Mon Jun 08 2026</p></details> |
 | gitpick | 311 | 8 | 3 | 6693 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Jun 06 2026</p></details> |
 | cloudflare-email-sending |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/cloudflare-email-sending">Link</a></summary><br/><p>Cloudflare Worker that sends transactional email from <alias>@nrjdalal.com via Cloudflare Email Service</p><p>Created: Fri May 22 2026</p><p>Updated: Fri May 29 2026</p></details> |
 | onset | 62 | 2 | 10 |  | <details><summary><a href="https://github.com/nrjdalal/onset">Link</a></summary><br/><p>An open source Next.js bare starter with step-by-step instructions if required. Built with Next.js 14, Drizzle (Postgres), NextAuth/Auth.js.</p><p>Created: Thu Nov 02 2023</p><p>Updated: Thu May 28 2026</p></details> |
@@ -42,7 +42,7 @@
 | start-pro | 4 |  | 9 |  | <details><summary><a href="https://github.com/nrjdalal/start-pro">Link</a></summary><br/><p>Created: Sun Dec 07 2025</p><p>Updated: Mon Dec 08 2025</p></details> |
 | colorwindcss | 3 |  | 6 | 84 | <details><summary><a href="https://github.com/nrjdalal/colorwindcss">Link</a></summary><br/><p>Need to know your colors better? Identify which Tailwind colors are used in your CSS files with `colorwindcss`!</p><p>Created: Sat Apr 19 2025</p><p>Updated: Sat Dec 20 2025</p></details> |
 | nrjdalal.com | 3 |  | 10 |  | <details><summary><a href="https://github.com/nrjdalal/nrjdalal.com">Link</a></summary><br/><p>Created: Sat Feb 15 2025</p><p>Updated: Thu Oct 23 2025</p></details> |
-| pglaunch | 2 | 1 | 5 | 138 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Generate multiple PostgreSQL connection strings/databases using CLI for development environments!</p><p>Created: Tue Oct 31 2023</p><p>Updated: Sat Dec 20 2025</p></details> |
+| pglaunch | 2 | 1 | 5 | 163 | <details><summary><a href="https://github.com/nrjdalal/pglaunch">Link</a></summary><br/><p>Generate multiple PostgreSQL connection strings/databases using CLI for development environments!</p><p>Created: Tue Oct 31 2023</p><p>Updated: Sat Dec 20 2025</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
