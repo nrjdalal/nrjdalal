@@ -10,8 +10,7 @@
     },
     "karabiner": {
       "files": [".config/karabiner/konfig.json"],
-      "run": "npx karabiner-human-config",
-      "cwd": ".config/karabiner"
+      "post": { "cmd": "npx karabiner-human-config", "cwd": ".config/karabiner" }
     }
   }
 }

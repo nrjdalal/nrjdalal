@@ -30,13 +30,21 @@
           "description": "Files mirrored between $HOME and user/.",
           "items": { "$ref": "#/$defs/entry" }
         },
-        "run": {
-          "type": "string",
-          "description": "Command run AFTER this group is restored, e.g. to regenerate a derived file (\"npx karabiner-human-config\")."
-        },
-        "cwd": {
-          "type": "string",
-          "description": "Working directory for `run`, relative to $HOME. Defaults to $HOME."
+        "post": {
+          "type": "object",
+          "required": ["cmd"],
+          "additionalProperties": false,
+          "description": "Step run AFTER this group is restored, e.g. to regenerate a derived file.",
+          "properties": {
+            "cmd": {
+              "type": "string",
+              "description": "Command to run (e.g. \"npx karabiner-human-config\")."
+            },
+            "cwd": {
+              "type": "string",
+              "description": "Working directory for `cmd`, relative to $HOME. Defaults to $HOME."
+            }
+          }
         }
       }
     },

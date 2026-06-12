@@ -4,20 +4,20 @@
 //
 // Config (schema: scripts/sync.schema.json):
 //   { "version": 1, "groups": {
-//       "<group>": { "files": [<entry>...], "run"?: "<cmd>", "cwd"?: "<dir>" }
+//       "<group>": { "files": [<entry>...], "post"?: { "cmd": "...", "cwd"?: "..." } }
 //   } }
 //   <entry> = "rel/path"               under $HOME, mirrored to user/rel/path
 //           | { "from": "...", "to": "..." }
-//   run = command run AFTER restoring the group (e.g. regenerate a derived file)
-//   cwd = working dir for `run`, relative to $HOME (default $HOME)
+//   post = { cmd, cwd? } run AFTER restoring the group (e.g. regenerate a derived
+//          file); cwd is relative to $HOME (default $HOME)
 //
 // Backup (default): copy ~/<file> -> user/<file>, secretlint-scan, commit, push.
-// Restore (--restore): copy user/<file> -> ~/<file>, then run each group's `run`.
+// Restore (--restore): copy user/<file> -> ~/<file>, then run each group's post.cmd.
 //
 // Usage:
 //   bun run sync                 # back up + scan + push
 //   bun run sync --force         # back up even if secretlint flags something
-//   bun run restore              # restore files to ~ and run build steps
+//   bun run restore              # restore files to ~ and run post steps
 //   bun run restore --dry-run    # show what restore would do, change nothing
 import { $ } from "bun";
 import { homedir } from "node:os";
@@ -34,8 +34,7 @@ const args = new Set(process.argv.slice(2));
 type Entry = string | { from?: string; to: string };
 interface Group {
   files: Entry[];
-  run?: string;
-  cwd?: string;
+  post?: { cmd: string; cwd?: string };
 }
 interface SyncConfig {
   version?: number;
@@ -126,14 +125,14 @@ async function restore() {
       }
       restoredAny = true;
     }
-    if (restoredAny && g.run) {
-      const cwd = join(HOME, g.cwd ?? "");
-      console.log(`${dry ? "[dry] " : ""}run     [${group}]: (~/${g.cwd ?? ""}) ${g.run}`);
+    if (restoredAny && g.post) {
+      const cwd = join(HOME, g.post.cwd ?? "");
+      console.log(`${dry ? "[dry] " : ""}post    [${group}]: (~/${g.post.cwd ?? ""}) ${g.post.cmd}`);
       if (!dry) {
-        const res = await $`sh -c ${g.run}`.cwd(cwd).nothrow();
+        const res = await $`sh -c ${g.post.cmd}`.cwd(cwd).nothrow();
         process.stdout.write(res.stdout.toString());
         process.stderr.write(res.stderr.toString());
-        if (res.exitCode !== 0) console.error(`⚠ [${group}] run failed (exit ${res.exitCode})`);
+        if (res.exitCode !== 0) console.error(`⚠ [${group}] post failed (exit ${res.exitCode})`);
       }
     }
   }
