@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "sync": "bun scripts/sync.ts",
-    "scan": "secretlint \"user/**/*\""
+    "scan": "secretlint \"user/**/*\"",
+    "sync": "bun scripts/sync.ts"
   },
   "secretlint": {
     "rules": [

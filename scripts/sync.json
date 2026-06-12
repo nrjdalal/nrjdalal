@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/nrjdalal/nrjdalal/main/schemas/sync.json",
+  "$schema": "./sync.schema.json",
   "version": 1,
   "groups": {
     "cmux": [

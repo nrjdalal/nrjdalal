@@ -2,7 +2,7 @@
 // sync.ts — mirror local machine config into this repo under user/ (which stands
 // in for $HOME), scan for leaked secrets with secretlint, then commit and push.
 //
-// Driven by sync.json at the repo root (schema: schemas/sync.json):
+// Driven by scripts/sync.json (schema: scripts/sync.schema.json):
 //   { "version": 1, "groups": { "<group>": [ <entry>, ... ] } }
 // where <entry> is either
 //   "rel/path"                       copy ~/rel/path -> user/rel/path
@@ -22,7 +22,8 @@ import { dirname, join } from "node:path";
 import { existsSync } from "node:fs";
 import { mkdir } from "node:fs/promises";
 
-process.chdir(dirname(import.meta.dir)); // repo root (this file lives in scripts/)
+const SCRIPT_DIR = import.meta.dir;
+process.chdir(dirname(SCRIPT_DIR)); // repo root (this file lives in scripts/)
 const HOME = homedir();
 const MIRROR = "user"; // repo dir that mirrors $HOME
 const force = process.argv.includes("--force");
@@ -33,12 +34,7 @@ interface SyncConfig {
   groups?: Record<string, Entry[]>;
 }
 
-const CONFIG_FILE = "sync.json";
-if (!existsSync(CONFIG_FILE)) {
-  console.error(`${CONFIG_FILE} not found at repo root.`);
-  process.exit(1);
-}
-const config = (await Bun.file(CONFIG_FILE).json()) as SyncConfig;
+const config = (await Bun.file(join(SCRIPT_DIR, "sync.json")).json()) as SyncConfig;
 const groups = config.groups ?? {};
 
 const dests: string[] = [];

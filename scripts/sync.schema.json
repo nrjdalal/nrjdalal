@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/nrjdalal/nrjdalal/main/schemas/sync.json",
+  "$id": "https://raw.githubusercontent.com/nrjdalal/nrjdalal/main/scripts/sync.schema.json",
   "title": "sync.json",
   "description": "Config for scripts/sync.ts — which local ($HOME) files to mirror into user/, grouped.",
   "type": "object",
