@@ -17,7 +17,8 @@
 // Restore (--restore): copy user/<file> -> ~/<file>, then run each group's post.cmd.
 //
 // Usage:
-//   bun run sync                 # back up + scan + push
+//   bun run sync                 # back up + scan only (no git)
+//   bun run sync --push          # back up + scan + commit + push
 //   bun run sync --force         # back up even if secretlint flags something
 //   bun run restore              # pick groups interactively, restore them + run post
 //   bun run restore cmux git     # restore only the named groups, no prompt
@@ -125,6 +126,7 @@ if (args.has("--restore")) {
 async function backup() {
   process.chdir(REPO_ROOT);
   const force = args.has("--force");
+  const push = args.has("--push");
 
   const dests: string[] = [];
   for (const [group, g] of groups) {
@@ -167,12 +169,17 @@ async function backup() {
   process.stderr.write(scan.stderr.toString());
   if (scan.exitCode !== 0) {
     if (!force) {
-      console.error("\n⚠ secretlint flagged the synced files — nothing committed. Redact, or rerun with --force.");
+      console.error("\n⚠ secretlint flagged the synced files — aborting. Redact, or rerun with --force.");
       process.exit(1);
     }
     console.error("\n--force given: continuing despite secretlint findings.");
   }
 
+  // git only with --push; default leaves the working tree untouched for review
+  if (!push) {
+    console.log(`Copied ${dests.length} file(s) to ${MIRROR}/ — no git (pass --push to commit + push).`);
+    return;
+  }
   // commit & push (scoped to our own dests)
   await $`git add -- ${dests}`;
   if ((await $`git diff --cached --name-only -- ${dests}`.text()).trim() === "") {
