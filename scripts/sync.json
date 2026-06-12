@@ -13,6 +13,11 @@
         { "from": "Library/Application Support/Code/User/settings.json", "to": ".config/vscode/settings.json" }
       ]
     },
+    "code-extensions": {
+      "files": [".config/vscode/extensions.txt"],
+      "pre": { "cmd": "code --list-extensions > extensions.txt", "cwd": ".config/vscode" },
+      "post": { "cmd": "xargs -L1 code --install-extension < extensions.txt", "cwd": ".config/vscode" }
+    },
     "karabiner": {
       "files": [".config/karabiner/konfig.json"],
       "post": { "cmd": "npx karabiner-human-config", "cwd": ".config/karabiner" }

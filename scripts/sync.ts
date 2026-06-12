@@ -8,10 +8,12 @@
 //   } }
 //   <entry> = "rel/path"               under $HOME, mirrored to user/rel/path
 //           | { "from": "...", "to": "..." }
-//   post = { cmd, cwd? } run AFTER restoring the group (e.g. regenerate a derived
-//          file); cwd is relative to $HOME (default $HOME)
+//   pre  = { cmd, cwd? } run BEFORE backing up the group (e.g. capture a list);
+//          cwd is relative to $HOME (default $HOME)
+//   post = { cmd, cwd? } run AFTER restoring the group (e.g. regenerate/install);
+//          cwd is relative to $HOME (default $HOME)
 //
-// Backup (default): copy ~/<file> -> user/<file>, secretlint-scan, commit, push.
+// Backup (default): run each group's pre.cmd, copy ~/<file> -> user/<file>, scan, push.
 // Restore (--restore): copy user/<file> -> ~/<file>, then run each group's post.cmd.
 //
 // Usage:
@@ -34,6 +36,7 @@ const args = new Set(process.argv.slice(2));
 type Entry = string | { from?: string; to: string };
 interface Group {
   files: Entry[];
+  pre?: { cmd: string; cwd?: string };
   post?: { cmd: string; cwd?: string };
 }
 interface SyncConfig {
@@ -58,6 +61,15 @@ async function backup() {
 
   const dests: string[] = [];
   for (const [group, g] of groups) {
+    if (g.pre) {
+      const cwd = join(HOME, g.pre.cwd ?? "");
+      await mkdir(cwd, { recursive: true });
+      console.log(`pre     [${group}]: (~/${g.pre.cwd ?? ""}) ${g.pre.cmd}`);
+      const res = await $`sh -c ${g.pre.cmd}`.cwd(cwd).nothrow();
+      process.stdout.write(res.stdout.toString());
+      process.stderr.write(res.stderr.toString());
+      if (res.exitCode !== 0) console.error(`⚠ [${group}] pre failed (exit ${res.exitCode})`);
+    }
     for (const e of g.files) {
       const { from, to } = norm(e);
       const src = Bun.file(join(HOME, from));

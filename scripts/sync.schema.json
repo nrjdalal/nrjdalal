@@ -30,6 +30,22 @@
           "description": "Files mirrored between $HOME and user/.",
           "items": { "$ref": "#/$defs/entry" }
         },
+        "pre": {
+          "type": "object",
+          "required": ["cmd"],
+          "additionalProperties": false,
+          "description": "Step run BEFORE this group is backed up, e.g. to capture a list (\"code --list-extensions > extensions.txt\").",
+          "properties": {
+            "cmd": {
+              "type": "string",
+              "description": "Command to run."
+            },
+            "cwd": {
+              "type": "string",
+              "description": "Working directory for `cmd`, relative to $HOME. Defaults to $HOME."
+            }
+          }
+        },
         "post": {
           "type": "object",
           "required": ["cmd"],
