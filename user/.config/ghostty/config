@@ -3,7 +3,7 @@
 
 # ~ appearance
 font-family = Berkeley Mono
-font-size = 12
+font-size = 13
 theme = GitHub Dark Default
 
 # ~ transparency (native macOS Tahoe glass material)
