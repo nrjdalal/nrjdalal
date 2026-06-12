@@ -1,0 +1,18 @@
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[user]
+	name = Neeraj Dalal
+	email = admin@nrjdalal.com
+	signingkey = 9D5C4DB9B7383E84
+[commit]
+	gpgSign = true
+[gpg]
+	program = gpg
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
