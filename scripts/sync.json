@@ -8,6 +8,9 @@
         ".config/cmux/settings.json"
       ]
     },
+    "cmux-workspaces": {
+      "files": [".config/cmux/workspaces.ts"]
+    },
     "code": {
       "files": [
         { "from": "Library/Application Support/Code/User/settings.json", "to": ".config/vscode/settings.json" }
