@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# sync.sh — copy local machine config into this repo, commit, and push.
+# sync.sh — mirror local machine config into this repo, commit, and push.
 #
-# Each ENTRIES line is "<type>:<source>:<repo-relative dest>"
-#   copy:<file path>:<dest>   copy a local file into the repo
-#   cmd:<command>:<dest>      run a command and write stdout to <dest>
-# Add a line to sync more; only the listed dests are committed.
+# HOME_FILES: files under $HOME, copied to the SAME relative path in the repo
+#   (e.g. ~/.config/cmux/cmux.json -> .config/cmux/cmux.json).
+# GENERATED:  "<command>::<repo-relative dest>" — command stdout written to dest.
+# Only the resulting paths are staged; unrelated changes are left alone.
 #
 # Usage: ./sync.sh
 set -euo pipefail
@@ -12,33 +12,36 @@ set -euo pipefail
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$REPO_DIR"
 
-ENTRIES=(
-  "copy:$HOME/.config/cmux/cmux.json:cmux.json"
+HOME_FILES=(
+  "$HOME/.config/cmux/cmux.json"
+)
 
-  # Uncomment to also sync VS Code (overwrites the repo copies with your live ones):
-  # "copy:$HOME/Library/Application Support/Code/User/settings.json:vscode-settings.json"
-  # "cmd:code --list-extensions:vscode-extensions.txt"
+GENERATED=(
+  # "code --list-extensions::vscode-extensions.txt"
 )
 
 dests=()
-for entry in "${ENTRIES[@]}"; do
-  type="${entry%%:*}"
-  rest="${entry#*:}"
-  src="${rest%:*}"
-  dest="${rest##*:}"
-  mkdir -p "$(dirname "$dest")"
-  case "$type" in
-    copy)
-      if [ ! -f "$src" ]; then echo "skip (missing source): $src"; continue; fi
-      cp "$src" "$dest" ;;
-    cmd)
-      if ! ( eval "$src" ) > "$dest.tmp" 2>/dev/null; then
-        echo "skip (command failed): $src"; rm -f "$dest.tmp"; continue
-      fi
-      mv "$dest.tmp" "$dest" ;;
-    *)
-      echo "skip (unknown type '$type'): $entry"; continue ;;
+
+for src in "${HOME_FILES[@]}"; do
+  case "$src" in
+    "$HOME"/*) dest="${src#"$HOME"/}" ;;
+    *) echo "skip (not under \$HOME): $src"; continue ;;
   esac
+  if [ ! -f "$src" ]; then echo "skip (missing): $src"; continue; fi
+  mkdir -p "$(dirname "$dest")"
+  cp "$src" "$dest"
+  dests+=("$dest")
+  echo "synced: $dest"
+done
+
+for entry in "${GENERATED[@]}"; do
+  cmd="${entry%::*}"
+  dest="${entry##*::}"
+  mkdir -p "$(dirname "$dest")"
+  if ! ( eval "$cmd" ) > "$dest.tmp" 2>/dev/null; then
+    echo "skip (command failed): $cmd"; rm -f "$dest.tmp"; continue
+  fi
+  mv "$dest.tmp" "$dest"
   dests+=("$dest")
   echo "synced: $dest"
 done
