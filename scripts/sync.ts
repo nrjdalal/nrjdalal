@@ -48,6 +48,8 @@ const config = (await Bun.file(join(SCRIPT_DIR, "sync.json")).json()) as SyncCon
 const groups = Object.entries(config.groups ?? {});
 const norm = (e: Entry) =>
   typeof e === "string" ? { from: e, to: e } : { from: e.from ?? e.to, to: e.to };
+// aligned log prefix: fixed-width verb so the [group] column lines up
+const tag = (verb: string, group: string) => `${verb.padEnd(8)}[${group}]`;
 
 if (args.has("--restore")) {
   await restore();
@@ -64,7 +66,7 @@ async function backup() {
     if (g.pre) {
       const cwd = join(HOME, g.pre.cwd ?? "");
       await mkdir(cwd, { recursive: true });
-      console.log(`pre     [${group}]: (~/${g.pre.cwd ?? ""}) ${g.pre.cmd}`);
+      console.log(`${tag("pre", group)} (~/${g.pre.cwd ?? ""}) ${g.pre.cmd}`);
       const res = await $`sh -c ${g.pre.cmd}`.cwd(cwd).nothrow();
       process.stdout.write(res.stdout.toString());
       process.stderr.write(res.stderr.toString());
@@ -74,14 +76,14 @@ async function backup() {
       const { from, to } = norm(e);
       const src = Bun.file(join(HOME, from));
       if (!(await src.exists())) {
-        console.log(`skip (missing): ~/${from}`);
+        console.log(`${tag("skip", group)} ~/${from} (missing)`);
         continue;
       }
       const dest = join(MIRROR, to);
       await mkdir(dirname(dest), { recursive: true });
       await Bun.write(dest, src);
       dests.push(dest);
-      console.log(`backed up [${group}]: ${dest}`);
+      console.log(`${tag("backup", group)} ${dest}`);
     }
   }
   if (dests.length === 0) {
@@ -126,10 +128,10 @@ async function restore() {
       const { from, to } = norm(e);
       const repoPath = join(REPO_ROOT, MIRROR, to);
       if (!existsSync(repoPath)) {
-        console.log(`skip (not in repo): ${MIRROR}/${to}`);
+        console.log(`${dry ? "[dry] " : ""}${tag("skip", group)} ${MIRROR}/${to} (not in repo)`);
         continue;
       }
-      console.log(`${dry ? "[dry] " : ""}restore [${group}]: ~/${from}`);
+      console.log(`${dry ? "[dry] " : ""}${tag("restore", group)} ~/${from}`);
       if (!dry) {
         const target = join(HOME, from);
         await mkdir(dirname(target), { recursive: true });
@@ -139,7 +141,7 @@ async function restore() {
     }
     if (restoredAny && g.post) {
       const cwd = join(HOME, g.post.cwd ?? "");
-      console.log(`${dry ? "[dry] " : ""}post    [${group}]: (~/${g.post.cwd ?? ""}) ${g.post.cmd}`);
+      console.log(`${dry ? "[dry] " : ""}${tag("post", group)} (~/${g.post.cwd ?? ""}) ${g.post.cmd}`);
       if (!dry) {
         const res = await $`sh -c ${g.post.cmd}`.cwd(cwd).nothrow();
         process.stdout.write(res.stdout.toString());
