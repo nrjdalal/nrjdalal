@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://raw.githubusercontent.com/nrjdalal/nrjdalal/main/scripts/sync.schema.json",
   "title": "sync.json",
-  "description": "Config for scripts/sync.ts — which local ($HOME) files to mirror into user/, grouped.",
+  "description": "Config for scripts/sync.ts — which $HOME files to mirror into user/, grouped, with optional post-restore build steps.",
   "type": "object",
   "required": ["version", "groups"],
   "additionalProperties": false,
@@ -15,19 +15,36 @@
     },
     "groups": {
       "type": "object",
-      "description": "Named groups; each lists entries to mirror from $HOME into user/.",
-      "additionalProperties": {
-        "type": "array",
-        "items": { "$ref": "#/$defs/entry" }
-      }
+      "description": "Named groups of config to back up / restore.",
+      "additionalProperties": { "$ref": "#/$defs/group" }
     }
   },
   "$defs": {
+    "group": {
+      "type": "object",
+      "required": ["files"],
+      "additionalProperties": false,
+      "properties": {
+        "files": {
+          "type": "array",
+          "description": "Files mirrored between $HOME and user/.",
+          "items": { "$ref": "#/$defs/entry" }
+        },
+        "run": {
+          "type": "string",
+          "description": "Command run AFTER this group is restored, e.g. to regenerate a derived file (\"npx karabiner-human-config\")."
+        },
+        "cwd": {
+          "type": "string",
+          "description": "Working directory for `run`, relative to $HOME. Defaults to $HOME."
+        }
+      }
+    },
     "entry": {
       "oneOf": [
         {
           "type": "string",
-          "description": "Path relative to $HOME, copied to user/<path> (e.g. \".config/cmux/cmux.json\")."
+          "description": "Path relative to $HOME, mirrored to user/<path> (e.g. \".config/cmux/cmux.json\")."
         },
         {
           "type": "object",
@@ -36,15 +53,11 @@
           "properties": {
             "from": {
               "type": "string",
-              "description": "Source path relative to $HOME. Defaults to `to` when omitted. Ignored if `cmd` is set."
+              "description": "Source path relative to $HOME. Defaults to `to` when omitted."
             },
             "to": {
               "type": "string",
-              "description": "Destination path relative to user/ (the $HOME mirror)."
-            },
-            "cmd": {
-              "type": "string",
-              "description": "Run this shell command and write its stdout to user/<to>, instead of copying a file."
+              "description": "Path relative to user/ (the $HOME mirror)."
             }
           }
         }

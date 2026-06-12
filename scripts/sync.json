@@ -2,9 +2,16 @@
   "$schema": "./sync.schema.json",
   "version": 1,
   "groups": {
-    "cmux": [
-      ".config/cmux/cmux.json",
-      ".config/cmux/settings.json"
-    ]
+    "cmux": {
+      "files": [
+        ".config/cmux/cmux.json",
+        ".config/cmux/settings.json"
+      ]
+    },
+    "karabiner": {
+      "files": [".config/karabiner/konfig.json"],
+      "run": "npx karabiner-human-config",
+      "cwd": ".config/karabiner"
+    }
   }
 }

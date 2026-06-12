@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "restore": "bun scripts/sync.ts --restore",
     "scan": "secretlint \"user/**/*\"",
     "sync": "bun scripts/sync.ts"
   },
