@@ -8,6 +8,11 @@
         ".config/cmux/settings.json"
       ]
     },
+    "code": {
+      "files": [
+        { "from": "Library/Application Support/Code/User/settings.json", "to": ".config/vscode/settings.json" }
+      ]
+    },
     "karabiner": {
       "files": [".config/karabiner/konfig.json"],
       "post": { "cmd": "npx karabiner-human-config", "cwd": ".config/karabiner" }
