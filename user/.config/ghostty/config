@@ -1,11 +1,14 @@
 # ~/.config/ghostty/config — read by cmux for its terminal surfaces.
+
 # Reload after editing: cmux reload-config
 
 # ~ appearance
+
 font-family = Berkeley Mono
 font-size = 13
 theme = GitHub Dark Default
 
 # ~ transparency (native macOS Tahoe glass material)
+
 background-opacity = 0.95
 background-blur = macos-glass-regular
