@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "sync": "bun scripts/sync.ts",
-    "scan": "secretlint \".config/**/*\""
+    "scan": "secretlint \"user/**/*\""
   },
   "secretlint": {
     "rules": [

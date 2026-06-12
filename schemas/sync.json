@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/nrjdalal/nrjdalal/main/scripts/sync.schema.json",
+  "$id": "https://raw.githubusercontent.com/nrjdalal/nrjdalal/main/schemas/sync.json",
   "title": "sync.json",
-  "description": "Config for scripts/sync.ts — which local files to mirror into this repo, by group.",
+  "description": "Config for scripts/sync.ts — which local ($HOME) files to mirror into user/, grouped.",
   "type": "object",
   "required": ["version", "groups"],
   "additionalProperties": false,
@@ -15,7 +15,7 @@
     },
     "groups": {
       "type": "object",
-      "description": "Named groups of entries to sync.",
+      "description": "Named groups; each lists entries to mirror from $HOME into user/.",
       "additionalProperties": {
         "type": "array",
         "items": { "$ref": "#/$defs/entry" }
@@ -27,7 +27,7 @@
       "oneOf": [
         {
           "type": "string",
-          "description": "Shorthand: a path relative to BOTH $HOME and the repo root, copied verbatim (e.g. \".config/cmux/cmux.json\")."
+          "description": "Path relative to $HOME, copied to user/<path> (e.g. \".config/cmux/cmux.json\")."
         },
         {
           "type": "object",
@@ -40,11 +40,11 @@
             },
             "to": {
               "type": "string",
-              "description": "Destination path relative to the repo root."
+              "description": "Destination path relative to user/ (the $HOME mirror)."
             },
             "cmd": {
               "type": "string",
-              "description": "Run this shell command and write its stdout to `to`, instead of copying a file."
+              "description": "Run this shell command and write its stdout to user/<to>, instead of copying a file."
             }
           }
         }
