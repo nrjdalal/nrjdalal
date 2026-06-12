@@ -3,6 +3,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "sync": "bun scripts/sync-configs.ts"
+    "sync": "bun scripts/sync-configs.ts",
+    "scan": "secretlint \".config/**/*\""
+  },
+  "secretlint": {
+    "rules": [
+      {
+        "id": "@secretlint/secretlint-rule-preset-recommend"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@secretlint/secretlint-rule-preset-recommend": "^13.0.2",
+    "secretlint": "^13.0.2"
   }
 }
