@@ -66,7 +66,7 @@ async function backup() {
     if (g.pre) {
       const cwd = join(HOME, g.pre.cwd ?? "");
       await mkdir(cwd, { recursive: true });
-      console.log(`${tag("pre", group)} (~/${g.pre.cwd ?? ""}) ${g.pre.cmd}`);
+      console.log(`${tag("pre", group)} ${g.pre.cmd}`);
       const res = await $`sh -c ${g.pre.cmd}`.cwd(cwd).nothrow();
       process.stdout.write(res.stdout.toString());
       process.stderr.write(res.stderr.toString());
@@ -141,7 +141,7 @@ async function restore() {
     }
     if (restoredAny && g.post) {
       const cwd = join(HOME, g.post.cwd ?? "");
-      console.log(`${dry ? "[dry] " : ""}${tag("post", group)} (~/${g.post.cwd ?? ""}) ${g.post.cmd}`);
+      console.log(`${dry ? "[dry] " : ""}${tag("post", group)} ${g.post.cmd}`);
       if (!dry) {
         const res = await $`sh -c ${g.post.cmd}`.cwd(cwd).nothrow();
         process.stdout.write(res.stdout.toString());
