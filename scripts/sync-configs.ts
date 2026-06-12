@@ -6,13 +6,13 @@
 // GENERATED:  [command, repo-relative dest] — command stdout written to dest.
 // Only the resulting paths are staged; unrelated changes are left alone.
 //
-// Usage: ./sync.ts   (or: bun sync.ts)
+// Usage: bun scripts/sync-configs.ts   (run from anywhere; resolves the repo root)
 import { $ } from "bun";
 import { homedir } from "node:os";
 import { dirname, relative } from "node:path";
 import { mkdir } from "node:fs/promises";
 
-process.chdir(import.meta.dir);
+process.chdir(dirname(import.meta.dir)); // repo root (this file lives in scripts/)
 const HOME = homedir();
 
 const HOME_FILES: string[] = [
