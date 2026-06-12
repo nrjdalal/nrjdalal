@@ -1,14 +1,16 @@
 #!/usr/bin/env bun
-// sync-configs.ts — mirror local machine config into this repo, scan for leaked
-// secrets with secretlint, then commit and push.
+// sync.ts — mirror local machine config into this repo, scan for leaked secrets
+// with secretlint, then commit and push.
 //
-// CONFIGS maps a group key to paths relative to BOTH $HOME and the repo root,
-// e.g. ".config/cmux/cmux.json" copies ~/.config/cmux/cmux.json -> .config/cmux/cmux.json.
+// Driven by sync.json at the repo root (see scripts/sync.schema.json):
+//   { "version": 1, "groups": { "<group>": [ <entry>, ... ] } }
+// where <entry> is either
+//   "rel/path"                         copy ~/rel/path -> rel/path
+//   { "from": "...", "to": "..." }     copy ~/from -> to  (from defaults to to)
+//   { "cmd": "...", "to": "..." }      write the command's stdout -> to
 //
-// Before committing, the synced files are scanned with secretlint (vendored as a
-// devDependency — run `bun install` first; config lives in package.json's
-// "secretlint" field) so nothing personal gets pushed by accident. On a finding
-// the sync aborts; pass --force to override a reviewed false positive.
+// secretlint (vendored devDependency; config in package.json) scans the synced
+// files before committing; on a finding the sync aborts. Pass --force to override.
 //
 // Usage:
 //   bun install            # once, to vendor secretlint
@@ -24,23 +26,48 @@ process.chdir(dirname(import.meta.dir)); // repo root (this file lives in script
 const HOME = homedir();
 const force = process.argv.includes("--force");
 
-// group -> paths relative to $HOME (and to the repo root)
-const CONFIGS: Record<string, string[]> = {
-  cmux: [".config/cmux/cmux.json", ".config/cmux/settings.json"],
-};
+type Entry = string | { from?: string; to: string; cmd?: string };
+interface SyncConfig {
+  version?: number;
+  groups?: Record<string, Entry[]>;
+}
+
+const CONFIG_FILE = "sync.json";
+if (!existsSync(CONFIG_FILE)) {
+  console.error(`${CONFIG_FILE} not found at repo root.`);
+  process.exit(1);
+}
+const config = (await Bun.file(CONFIG_FILE).json()) as SyncConfig;
+const groups = config.groups ?? {};
 
 const dests: string[] = [];
-for (const [group, paths] of Object.entries(CONFIGS)) {
-  for (const rel of paths) {
-    const file = Bun.file(`${HOME}/${rel}`);
-    if (!(await file.exists())) {
-      console.log(`skip (missing): ${rel}`);
+for (const [group, entries] of Object.entries(groups)) {
+  for (const raw of entries) {
+    const entry = typeof raw === "string" ? { to: raw } : raw;
+    const to = entry.to;
+    await mkdir(dirname(to), { recursive: true });
+
+    if (entry.cmd) {
+      const out = await $`sh -c ${entry.cmd}`.nothrow();
+      if (out.exitCode !== 0) {
+        console.log(`skip (cmd failed): ${to}`);
+        continue;
+      }
+      await Bun.write(to, out.stdout);
+      dests.push(to);
+      console.log(`synced [${group}]: ${to} (cmd)`);
       continue;
     }
-    await mkdir(dirname(rel), { recursive: true });
-    await Bun.write(rel, file);
-    dests.push(rel);
-    console.log(`synced [${group}]: ${rel}`);
+
+    const from = entry.from ?? to;
+    const file = Bun.file(`${HOME}/${from}`);
+    if (!(await file.exists())) {
+      console.log(`skip (missing): ${from}`);
+      continue;
+    }
+    await Bun.write(to, file);
+    dests.push(to);
+    console.log(`synced [${group}]: ${to}`);
   }
 }
 

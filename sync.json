@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nrjdalal/nrjdalal/main/scripts/sync.schema.json",
+  "version": 1,
+  "groups": {
+    "cmux": [
+      ".config/cmux/cmux.json",
+      ".config/cmux/settings.json"
+    ]
+  }
+}

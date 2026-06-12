@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/nrjdalal/nrjdalal/main/scripts/sync.schema.json",
+  "title": "sync.json",
+  "description": "Config for scripts/sync.ts — which local files to mirror into this repo, by group.",
+  "type": "object",
+  "required": ["version", "groups"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": {
+      "type": "integer",
+      "const": 1,
+      "description": "Schema version, for forward-compatible migrations."
+    },
+    "groups": {
+      "type": "object",
+      "description": "Named groups of entries to sync.",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "#/$defs/entry" }
+      }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Shorthand: a path relative to BOTH $HOME and the repo root, copied verbatim (e.g. \".config/cmux/cmux.json\")."
+        },
+        {
+          "type": "object",
+          "required": ["to"],
+          "additionalProperties": false,
+          "properties": {
+            "from": {
+              "type": "string",
+              "description": "Source path relative to $HOME. Defaults to `to` when omitted. Ignored if `cmd` is set."
+            },
+            "to": {
+              "type": "string",
+              "description": "Destination path relative to the repo root."
+            },
+            "cmd": {
+              "type": "string",
+              "description": "Run this shell command and write its stdout to `to`, instead of copying a file."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

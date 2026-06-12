@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "sync": "bun scripts/sync-configs.ts",
+    "sync": "bun scripts/sync.ts",
     "scan": "secretlint \".config/**/*\""
   },
   "secretlint": {
