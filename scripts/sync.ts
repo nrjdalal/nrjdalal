@@ -19,13 +19,16 @@
 // Usage:
 //   bun run sync                 # back up + scan + push
 //   bun run sync --force         # back up even if secretlint flags something
-//   bun run restore              # restore files to ~ and run post steps
-//   bun run restore --dry-run    # show what restore would do, change nothing
+//   bun run restore              # pick groups interactively, restore them + run post
+//   bun run restore cmux git     # restore only the named groups, no prompt
+//   bun run restore --all        # restore every group, no prompt
+//   bun run restore --dry-run    # preview all groups, change nothing
 import { $ } from "bun";
 import { homedir } from "node:os";
 import { dirname, join } from "node:path";
 import { existsSync } from "node:fs";
 import { mkdir } from "node:fs/promises";
+import readline from "node:readline";
 
 const SCRIPT_DIR = import.meta.dir;
 const REPO_ROOT = dirname(SCRIPT_DIR);
@@ -50,6 +53,68 @@ const norm = (e: Entry) =>
   typeof e === "string" ? { from: e, to: e } : { from: e.from ?? e.to, to: e.to };
 // aligned log prefix: fixed-width verb so the [group] column lines up
 const tag = (verb: string, group: string) => `${verb.padEnd(8)}[${group}]`;
+
+const CYAN = "\x1b[36m";
+const RESET = "\x1b[0m";
+const setRaw = (on: boolean) => {
+  const s = process.stdin as any;
+  if (s.isTTY && typeof s.setRawMode === "function") s.setRawMode(on);
+};
+
+// Arrow-key multi-select: ↑/↓ move, space toggle, enter confirm. Zero-dep
+// (node:readline + raw mode). Adapted from nrjdalal/inscope's selectMany.
+const selectMany = (
+  message: string,
+  choices: { label: string; value: string; checked?: boolean }[],
+): Promise<string[]> =>
+  new Promise((resolve) => {
+    const checked = choices.map((c) => !!c.checked);
+    const collect = () => choices.filter((_, i) => checked[i]).map((c) => c.value);
+    if (!process.stdin.isTTY || choices.length === 0) {
+      resolve(collect());
+      return;
+    }
+    let idx = 0;
+    const out = process.stdout;
+    out.write(message + "\n");
+    const render = (first: boolean) => {
+      if (!first) out.write(`\x1b[${choices.length}A`);
+      for (let i = 0; i < choices.length; i++) {
+        const on = i === idx;
+        const row = `${on ? "❯" : " "} ${checked[i] ? "◉" : "◯"} ${choices[i].label}`;
+        out.write(`\x1b[2K  ${on ? CYAN + row + RESET : row}\n`);
+      }
+    };
+    render(true);
+    readline.emitKeypressEvents(process.stdin);
+    setRaw(true);
+    process.stdin.resume();
+    const cleanup = () => {
+      process.stdin.off("keypress", onKey);
+      setRaw(false);
+      process.stdin.pause();
+    };
+    const onKey = (s: string, key: readline.Key) => {
+      if (key.name === "up" || key.name === "k") {
+        idx = (idx - 1 + choices.length) % choices.length;
+        render(false);
+      } else if (key.name === "down" || key.name === "j") {
+        idx = (idx + 1) % choices.length;
+        render(false);
+      } else if (key.name === "space" || s === " ") {
+        checked[idx] = !checked[idx];
+        render(false);
+      } else if (key.name === "return" || key.name === "enter") {
+        cleanup();
+        resolve(collect());
+      } else if (key.ctrl && key.name === "c") {
+        cleanup();
+        out.write("\n");
+        process.exit(130);
+      }
+    };
+    process.stdin.on("keypress", onKey);
+  });
 
 if (args.has("--restore")) {
   await restore();
@@ -122,7 +187,36 @@ async function backup() {
 
 async function restore() {
   const dry = args.has("--dry-run");
-  for (const [group, g] of groups) {
+  const all = args.has("--all");
+
+  const names = [...args].filter((a) => !a.startsWith("--")); // explicit group names
+
+  let chosen = groups;
+  if (names.length) {
+    const unknown = names.filter((n) => !groups.some(([gn]) => gn === n));
+    if (unknown.length) console.error(`unknown group(s): ${unknown.join(", ")}`);
+    chosen = groups.filter(([n]) => names.includes(n));
+    if (!chosen.length) {
+      console.error("nothing to restore.");
+      process.exit(1);
+    }
+  } else if (!dry && !all) {
+    if (!process.stdin.isTTY) {
+      console.error("restore needs group name(s), --all, or a terminal.");
+      process.exit(1);
+    }
+    const picked = await selectMany(
+      "Restore which?  (↑/↓ move · space toggle · enter confirm)",
+      groups.map(([name]) => ({ label: name, value: name })),
+    );
+    if (picked.length === 0) {
+      console.log("Nothing selected; aborted.");
+      return;
+    }
+    chosen = groups.filter(([n]) => picked.includes(n));
+  }
+
+  for (const [group, g] of chosen) {
     let restoredAny = false;
     for (const e of g.files) {
       const { from, to } = norm(e);
