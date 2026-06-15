@@ -23,8 +23,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| slack-mcp-server |  |  | 3 | 225 | <details><summary><a href="https://github.com/nrjdalal/slack-mcp-server">Link</a></summary><br/><p>A user-token (xoxp) Slack MCP server. Tools mirror the Slack Web API.</p><p>Created: Sun Jun 14 2026</p><p>Updated: Mon Jun 15 2026</p></details> |
 | inscope | 2 |  | 2 | 10374 | <details><summary><a href="https://github.com/nrjdalal/inscope">Link</a></summary><br/><p>Per-workspace identity for Claude Code: scope MCP servers, GitHub auth, and git commit identity to the directory you are in.</p><p>Created: Thu Jun 11 2026</p><p>Updated: Mon Jun 15 2026</p></details> |
+| slack-mcp-server |  |  | 2 | 225 | <details><summary><a href="https://github.com/nrjdalal/slack-mcp-server">Link</a></summary><br/><p>A user-token (xoxp) Slack MCP server. Tools mirror the Slack Web API.</p><p>Created: Sun Jun 14 2026</p><p>Updated: Mon Jun 15 2026</p></details> |
 | awesome-templates | 27 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Mon Jun 15 2026</p></details> |
 | gitpick | 312 | 8 | 3 | 6693 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Jun 14 2026</p></details> |
 | zerostarter | 52 | 12 | 16 | 4 | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>A modern, type-safe, and high-performance SaaS starter template built with a monorepo architecture.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Sun Jun 14 2026</p></details> |
