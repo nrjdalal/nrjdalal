@@ -27,7 +27,7 @@ css: |
 
 **Web Developer · SaaS Architect · Open Source Contributor**
 
-[zerostarter.dev/hire](https://zerostarter.dev/hire) · [nrjdalal.dev@gmail.com](mailto:nrjdalal.dev@gmail.com) · [github.com/nrjdalal](https://github.com/nrjdalal) · [linkedin.com/in/nrjdalal](https://www.linkedin.com/in/nrjdalal/) · [x.com/nrjdalal](https://x.com/nrjdalal)
+[zerostarter.dev/hire](https://zerostarter.dev/hire) · [admin@nrjdalal.com](mailto:admin@nrjdalal.com) · [github.com/nrjdalal](https://github.com/nrjdalal) · [linkedin.com/in/nrjdalal](https://www.linkedin.com/in/nrjdalal/) · [x.com/nrjdalal](https://x.com/nrjdalal)
 
 ## Summary
 
