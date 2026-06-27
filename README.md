@@ -8,9 +8,11 @@
 
 <br/>
 
-- Email - [nrjdalal.dev@gmail.com](mailto:nrjdalal.dev@gmail.com)
+- Email - [admin@nrjdalal.com](mailto:admin@nrjdalal.com)
 - Website - [nrjdalal.com](https://nrjdalal.com)
-- Twitter - [x.com/nrjdalal](https://x.com/nrjdalal)
+- X - [x.com/nrjdalal](https://x.com/nrjdalal)
+- GitHub - [github.com/nrjdalal](https://github.com/nrjdalal)
+- LinkedIn - [linkedin.com/in/nrjdalal](https://linkedin.com/in/nrjdalal)
 
 ---
 
