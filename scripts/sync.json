@@ -4,8 +4,7 @@
   "groups": {
     "claude": {
       "files": [
-        ".claude/statusline.sh",
-        ".claude/settings.json"
+        ".claude/statusline.sh"
       ]
     },
     "cmux": {
