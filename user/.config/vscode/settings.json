@@ -48,22 +48,22 @@
         {
           "scope": "ref.matchtext",
           "settings": {
-            "foreground": "#000"
-          }
-        }
-      ]
+            "foreground": "#000",
+          },
+        },
+      ],
     },
     "[*Dark*]": {
       "textMateRules": [
         {
           "scope": "ref.matchtext",
           "settings": {
-            "foreground": "#fff"
-          }
-        }
-      ]
+            "foreground": "#fff",
+          },
+        },
+      ],
     },
-    "textMateRules": []
+    "textMateRules": [],
   },
   "editor.wordWrap": "on",
   "editor.wrappingStrategy": "advanced",
@@ -88,7 +88,7 @@
   "files.associations": {
     ".env*": "dotenv",
     "*.css": "tailwindcss",
-    "*.json": "jsonc"
+    "*.json": "jsonc",
   },
 
   // ~ git
@@ -204,4 +204,5 @@
     "**/node_modules/**",
     "**/public/**",
   ],
+  "editor.accessibilitySupport": "off",
 }

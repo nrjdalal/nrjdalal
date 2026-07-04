@@ -24,6 +24,9 @@
     }
   },
   "ui": { "newWorkspace": { "action": "Default" } },
+  "app": {
+    "minimalMode": true
+  },
   "browser": {
     "openTerminalLinksInCmuxBrowser": false,
     "interceptTerminalOpenCommandInCmuxBrowser": false
