@@ -2,6 +2,12 @@
   "$schema": "./sync.schema.json",
   "version": 1,
   "groups": {
+    "claude": {
+      "files": [
+        ".claude/statusline.sh",
+        ".claude/settings.json"
+      ]
+    },
     "cmux": {
       "files": [
         ".config/cmux/cmux.json",
