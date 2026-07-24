@@ -25,7 +25,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| PeerZero | 1 | 2 | 2 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Thu Jul 23 2026</p></details> |
+| PeerZero | 1 | 2 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Thu Jul 23 2026</p></details> |
 | awesome-templates | 27 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Jul 23 2026</p></details> |
 | karabiner-human-config | 46 | 2 | 1 | 3 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Tue Jul 21 2026</p></details> |
 | wordloom | 3 |  | 1 | 12 | <details><summary><a href="https://github.com/nrjdalal/wordloom">Link</a></summary><br/><p>Find short, pronounceable names for brands, products, and projects.</p><p>Created: Mon Apr 06 2026</p><p>Updated: Mon Jul 20 2026</p></details> |
