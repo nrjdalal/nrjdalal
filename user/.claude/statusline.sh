@@ -7,8 +7,8 @@ cwd=$(j '.workspace.current_dir // .cwd')
 branch=$(j '.worktree.branch')
 model=$(j '.model.display_name')
 effort=$(j 'if (.effort|type)=="object" then .effort.level elif (.effort|type)=="string" then .effort else empty end')
-[ -z "$effort" ] && effort=$(jq -r '.effortLevel // empty' "$HOME/.claude/settings.local.json" 2>/dev/null)
-[ -z "$effort" ] && effort=$(jq -r '.effortLevel // empty' "$HOME/.claude/settings.json" 2>/dev/null)
+[ -z "$effort" ] && effort=$(jq -r '.effortLevel // empty' "${CLAUDE_CONFIG_DIR:-$HOME/.claude}/settings.local.json" 2>/dev/null)
+[ -z "$effort" ] && effort=$(jq -r '.effortLevel // empty' "${CLAUDE_CONFIG_DIR:-$HOME/.claude}/settings.json" 2>/dev/null)
 used=$(j '.context_window.used_percentage')
 five_hour=$(j '.rate_limits.five_hour.used_percentage')
 five_hour_resets=$(j '.rate_limits.five_hour.resets_at')
@@ -68,7 +68,7 @@ fmt_money() {
 # (rolling), computed by ccusage. Reads a ≤60s cache instantly and refreshes in
 # the background so the status line never waits on log parsing.
 weekly_retail_cached() {
-  local dir="$HOME/.claude/.cache" file lock age val
+  local dir="${CLAUDE_CONFIG_DIR:-$HOME/.claude}/.cache" file lock age val
   file="$dir/weekly_retail"; lock="$dir/weekly_retail.lock"
   mkdir -p "$dir" 2>/dev/null
   [ -f "$file" ] && val=$(cat "$file" 2>/dev/null)
@@ -95,7 +95,7 @@ weekly_retail_cached() {
 # daily24_retail_cached: echo retail-$ spend over the last 24h, from ccusage
 # billing blocks (background-cached). Sums blocks whose start is within 24h.
 daily24_retail_cached() {
-  local dir="$HOME/.claude/.cache" file lock age val
+  local dir="${CLAUDE_CONFIG_DIR:-$HOME/.claude}/.cache" file lock age val
   file="$dir/daily24_retail"; lock="$dir/daily24_retail.lock"
   mkdir -p "$dir" 2>/dev/null
   [ -f "$file" ] && val=$(cat "$file" 2>/dev/null)
