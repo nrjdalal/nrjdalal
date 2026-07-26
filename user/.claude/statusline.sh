@@ -151,8 +151,9 @@ mag_color() {
   case $? in 2) printf '%s' "$RED";; 1) printf '%s' "$ORANGE";; *) printf '%s' "$GREEN";; esac
 }
 
-# eta_for: seconds until a window hits 100% at its pace so far, printed only
-# if it would exhaust *before* it resets; empty otherwise.
+# eta_for: seconds until a window hits 100% at its pace so far. Capped at 4× the
+# window length -- past that a 1%-used window extrapolates to months out, which
+# is noise rather than a forecast (and would overflow burn_color's awk %d).
 eta_for() {
   local used=$1 resets=$2 dur=$3
   [ -z "$used" ] && return
@@ -160,12 +161,35 @@ eta_for() {
   awk -v u="$used" 'BEGIN{exit !(u>0)}' || return   # need real usage to extrapolate
   local rem=$(( resets - now ))
   [ "$rem" -le 0 ] && return
-  local elapsed=$(( dur - rem ))
-  [ "$elapsed" -lt 300 ] && return                  # too early in window to trust
+  # need a real sample before extrapolating: 2% of the window, floored at 5min.
+  # a flat floor would let 15min into a 7d window forecast "exhausts tomorrow".
+  local elapsed=$(( dur - rem )) min=$(( dur / 50 ))
+  [ "$min" -lt 300 ] && min=300
+  [ "$elapsed" -lt "$min" ] && return
   local t
-  t=$(awk -v u="$used" -v e="$elapsed" 'BEGIN{printf "%d", (100-u)*e/u}')
-  [ "$t" -ge "$rem" ] && return                     # window resets before you run out
+  t=$(awk -v u="$used" -v e="$elapsed" -v c="$(( dur * 4 ))" \
+        'BEGIN{t=(100-u)*e/u; printf "%d", (t>c)? c : t}')
   printf '%s' "$t"
+}
+
+# window_times: "exhaust/reset" for a rate-limit window, e.g. "3:20pm/Tue 9am".
+# The exhaust half is colored by how much of the window it leaves on the table --
+# red runs dry early, green outlasts the reset -- so an exhaust date *past* the
+# reset is the "you're pacing fine" signal rather than a hidden segment. Degrades
+# to the reset alone when too little of the window has elapsed to infer a pace.
+window_times() {
+  local used=$1 resets=$2 dur=$3 eta rem
+  [ -z "$resets" ] && return
+  rem=$(( resets - now ))
+  [ "$rem" -le 0 ] && return
+  eta=$(eta_for "$used" "$resets" "$dur")
+  if [ -n "$eta" ]; then
+    printf '%s%s%s/%s' \
+      "$(burn_color "$eta" "$rem")" "$(fmt_when "$(( now + eta ))")" "$RESET" \
+      "$(fmt_when "$resets")"
+  else
+    fmt_when "$resets"
+  fi
 }
 
 # read-only git only: never take the optional index.lock, so a render can't
@@ -263,16 +287,12 @@ weekly_retail=$(weekly_retail_cached)
 spend=""
 [ -n "$weekly_retail" ] && spend="$(mag_color "$weekly_retail" 1000 3000)$(fmt_money "$weekly_retail")${RESET}"
 
-# --- 🔥 weekly cluster: retail spend · 7d% · 7d exhaust/reset (times only when burning) ---
+# --- 🔥 weekly cluster: retail spend · 7d% · 7d exhaust/reset ---
 burn=""
 [ -n "$spend" ] && burn="$spend"
 [ -n "$seven_day" ] && burn="${burn:+$burn }$(pct "$seven_day")"
-eta7=$(eta_for "$seven_day" "$seven_day_resets" 604800)
-if [ -n "$eta7" ]; then
-  reset7=$(( seven_day_resets - now ))
-  times="$(burn_color "$eta7" "$reset7")$(fmt_when "$(( now + eta7 ))")${RESET}/$(fmt_when "$seven_day_resets")"
-  burn="${burn:+$burn }$times"
-fi
+times7=$(window_times "$seven_day" "$seven_day_resets" 604800)
+[ -n "$times7" ] && burn="${burn:+$burn }$times7"
 [ -n "$burn" ] && line2+=("🔥 $burn")
 
 # --- ⏱️ 5-hour window only ---
