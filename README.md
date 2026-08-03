@@ -25,8 +25,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Sun Aug 02 2026</p></details> |
 | awesome-templates | 29 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Aug 02 2026</p></details> |
+| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Sun Aug 02 2026</p></details> |
 | use-tracking |  |  |  | 1 | <details><summary><a href="https://github.com/nrjdalal/use-tracking">Link</a></summary><br/><p>Use Tracking is a custom React hook with a configurable Tracker component designed to enable simple and effective analytics and event tracking in all your Next.js applications.</p><p>Created: Thu Dec 05 2024</p><p>Updated: Fri Jul 31 2026</p></details> |
 | smart-npm-release |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/smart-npm-release">Link</a></summary><br/><p>Created: Sat Mar 22 2025</p><p>Updated: Fri Jul 31 2026</p></details> |
 | next.js-assistant | 1 |  | 1 | 52 | <details><summary><a href="https://github.com/nrjdalal/next.js-assistant">Link</a></summary><br/><p>Created: Fri Jan 10 2025</p><p>Updated: Fri Jul 31 2026</p></details> |
