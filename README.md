@@ -44,7 +44,7 @@
 | better-next | 13 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-next">Link</a></summary><br/><p>Add better-auth using a single commad, or use the template itself, built for Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry</p><p>Created: Sat Mar 08 2025</p><p>Updated: Fri Jul 31 2026</p></details> |
 | virtual-next-routes | 11 |  |  | 170 | <details><summary><a href="https://github.com/nrjdalal/virtual-next-routes">Link</a></summary><br/><p>Next.js App Router style file-system routing for TanStack Start (and TanStack Router).</p><p>Created: Wed May 28 2025</p><p>Updated: Fri Jul 31 2026</p></details> |
 | tailwind-animate | 8 |  |  | 21877 | <details><summary><a href="https://github.com/nrjdalal/tailwind-animate">Link</a></summary><br/><p>A v4.0 compatible Tailwind CSS plugin for creating beautiful animations, replacing `tailwindcss-animate`. Includes custom animations like `accordion-up` and `accordion-down`, and more!</p><p>Created: Tue Mar 18 2025</p><p>Updated: Fri Jul 31 2026</p></details> |
-| github-dashboard | 4 |  |  | 42 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Fri Jul 31 2026</p></details> |
+| github-dashboard | 4 |  |  | 54 | <details><summary><a href="https://github.com/nrjdalal/github-dashboard">Link</a></summary><br/><p>Generate a markdown table of your GitHub repositories with stars, forks, issues, NPM downloads, and other information.</p><p>Created: Mon Feb 10 2025</p><p>Updated: Fri Jul 31 2026</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
