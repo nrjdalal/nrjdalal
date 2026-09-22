@@ -25,8 +25,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Tue Sep 22 2026</p></details> |
 | awesome-templates | 29 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Sep 22 2026</p></details> |
+| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Tue Sep 22 2026</p></details> |
 | gitpick | 323 | 11 | 6 | 3278 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Sep 22 2026</p></details> |
 | karabiner-human-config | 50 | 3 | 1 | 15 | <details><summary><a href="https://github.com/nrjdalal/karabiner-human-config">Link</a></summary><br/><p>The easiest way to write Karabiner-Elements configuration files, ever!</p><p>Created: Fri Feb 07 2025</p><p>Updated: Sun Sep 20 2026</p></details> |
 | legacy.nrjdalal.com |  | 2 | 12 |  | <details><summary><a href="https://github.com/nrjdalal/legacy.nrjdalal.com">Link</a></summary><br/><p>Legacy personal portfolio (superseded by v0.nrjdalal.com).</p><p>Created: Thu Nov 30 2023</p><p>Updated: Sat Sep 19 2026</p></details> |
