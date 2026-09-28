@@ -1,50 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/web/data/cmux.schema.json",
   "schemaVersion": 1,
-  "commands": [
-    {
-      "name": "Default",
-      "workspace": {
-        "layout": {
-          "direction": "vertical",
-          "split": 0.8,
-          "children": [
-            {
-              "pane": {
-                "surfaces": [
-                  {
-                    "type": "terminal",
-                    "focus": true
-                  }
-                ]
-              }
-            },
-            {
-              "pane": {
-                "surfaces": [
-                  {
-                    "type": "terminal"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
-    }
-  ],
-  "actions": {
-    "Default": {
-      "type": "workspaceCommand",
-      "title": "Default",
-      "commandName": "Default"
-    }
-  },
-  "ui": {
-    "newWorkspace": {
-      "action": "Default"
-    }
-  },
   "app": {
     "minimalMode": true
   },

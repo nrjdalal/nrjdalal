@@ -21,16 +21,6 @@ const DRY = argv.includes("--dry-run") || argv.includes("-n");
 const ADOPT = !argv.includes("--no-adopt");
 const HOME = homedir();
 
-// the "Default thingy": vertical 80/20 split, two terminals at the same cwd
-const layoutFor = (cwd: string) => ({
-  direction: "vertical",
-  split: 0.8,
-  children: [
-    { pane: { surfaces: [{ type: "terminal", cwd, focus: true }] } },
-    { pane: { surfaces: [{ type: "terminal", cwd }] } },
-  ],
-});
-
 type Group = {
   name: string;
   cwd: string; // anchor workspace cwd = the group header (org/parent dir)
@@ -100,14 +90,14 @@ async function ensureDir(cwd: string): Promise<void> {
 const wsLabel = (w: { ref?: string; custom_title?: string | null; title?: string; current_directory?: string }) =>
   `${w.custom_title || w.title || "?"} (${w.ref}) @ ${w.current_directory}`;
 
-// Every workspace opens with the Default 80/20 vertical split.
+// Every workspace opens with a single terminal.
 async function createWorkspace(name: string, cwd: string): Promise<string | undefined> {
   await ensureDir(cwd);
   if (DRY) {
-    console.log(`        would run: cmux workspace create --name ${name} --cwd ${cwd} --layout <default 80/20> --focus false`);
+    console.log(`        would run: cmux workspace create --name ${name} --cwd ${cwd} --focus false`);
     return undefined;
   }
-  const out = await $`cmux workspace create --name ${name} --cwd ${cwd} --layout ${JSON.stringify(layoutFor(cwd))} --focus false`.cwd(cwd).text();
+  const out = await $`cmux workspace create --name ${name} --cwd ${cwd} --focus false`.cwd(cwd).text();
   const ref = out.match(/workspace:\d+/)?.[0];
   if (!ref) throw new Error(`could not create workspace ${name} (${out})`);
   return ref;
@@ -159,7 +149,7 @@ for (const g of GROUPS) {
     await run(["send-key", "--workspace", anchorWs, "enter"]);
   }
 
-  // project member workspaces get the Default 80/20 split
+  // project member workspaces: one terminal each
   for (const m of g.members ?? []) {
     const canAdopt = ADOPT && !adopted && cur.current_directory === m.cwd;
     if (canAdopt) {
@@ -171,7 +161,7 @@ for (const g of GROUPS) {
       continue;
     }
     const ws = await createWorkspace(m.title, m.cwd);
-    say(`member   ${m.title}  ${ws ?? "(dry)"}  (80/20)  ${m.cwd}`);
+    say(`member   ${m.title}  ${ws ?? "(dry)"}  ${m.cwd}`);
     if (ws) await run(["workspace-group", "add", "--group", gref, "--workspace", ws]);
   }
 
