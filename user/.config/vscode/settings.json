@@ -94,6 +94,7 @@
   // ~ git
   "git.autofetch": true,
   "git.confirmSync": false,
+  "git.detectWorktrees": true,
   "git.openRepositoryInParentFolders": "always",
 
   // ~ github pull requests
@@ -168,10 +169,6 @@
   // ~ @extension - github pull requests
   "githubPullRequests.experimental.chat": true,
 
-  // ~ @extension - gitlens
-  "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-
   // ~ @extension - material icon theme
   "material-icon-theme.files.associations": {
     ".env.production-db": "database",
@@ -205,4 +202,12 @@
     "**/public/**",
   ],
   "editor.accessibilitySupport": "off",
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml",
+  ],
 }
