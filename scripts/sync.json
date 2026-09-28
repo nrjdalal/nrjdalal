@@ -10,11 +10,12 @@
     "cmux": {
       "files": [
         ".config/cmux/cmux.json",
-        ".config/cmux/settings.json"
+        ".config/cmux/settings.json",
+        ".config/cmux/dock.json"
       ]
     },
     "cmux-workspaces": {
-      "files": [".config/cmux/workspaces.ts"]
+      "files": [".config/cmux/workspaces.ts", ".config/cmux/reset-workspaces.ts"]
     },
     "code": {
       "files": [

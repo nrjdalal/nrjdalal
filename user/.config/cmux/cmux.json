@@ -9,8 +9,25 @@
           "direction": "vertical",
           "split": 0.8,
           "children": [
-            { "pane": { "surfaces": [ { "type": "terminal", "focus": true } ] } },
-            { "pane": { "surfaces": [ { "type": "terminal" } ] } }
+            {
+              "pane": {
+                "surfaces": [
+                  {
+                    "type": "terminal",
+                    "focus": true
+                  }
+                ]
+              }
+            },
+            {
+              "pane": {
+                "surfaces": [
+                  {
+                    "type": "terminal"
+                  }
+                ]
+              }
+            }
           ]
         }
       }
@@ -23,7 +40,11 @@
       "commandName": "Default"
     }
   },
-  "ui": { "newWorkspace": { "action": "Default" } },
+  "ui": {
+    "newWorkspace": {
+      "action": "Default"
+    }
+  },
   "app": {
     "minimalMode": true
   },

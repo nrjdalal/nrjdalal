@@ -1,0 +1,7 @@
+{
+  "controls": [
+    { "id": "system", "title": "System (top)", "command": "top", "height": 280 },
+    { "id": "clock", "title": "Clock", "command": "while :; do clear; date '+%T   %a %d %b'; sleep 1; done", "height": 80 },
+    { "id": "home", "title": "Home (ls)", "command": "ls -la ~", "height": 180 }
+  ]
+}
