@@ -25,8 +25,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Sat Oct 03 2026</p></details> |
 | awesome-templates | 29 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Oct 03 2026</p></details> |
+| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Sat Oct 03 2026</p></details> |
 | png-icons |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/png-icons">Link</a></summary><br/><p>Created: Sun Feb 09 2025</p><p>Updated: Tue Sep 29 2026</p></details> |
 | prettier-plugin-react | 1 |  |  | 58 | <details><summary><a href="https://github.com/nrjdalal/prettier-plugin-react">Link</a></summary><br/><p>WIP</p><p>Created: Mon Jan 27 2025</p><p>Updated: Tue Sep 29 2026</p></details> |
 | markdown-to-openapi | 1 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/markdown-to-openapi">Link</a></summary><br/><p>WIP</p><p>Created: Sat Sep 13 2025</p><p>Updated: Tue Sep 29 2026</p></details> |
