@@ -25,8 +25,8 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Thu Oct 29 2026</p></details> |
 | awesome-templates | 29 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Oct 29 2026</p></details> |
+| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Thu Oct 29 2026</p></details> |
 | github-enhanced |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/github-enhanced">Link</a></summary><br/><p>Flash-free tweaks for github.com, as a browser extension</p><p>Created: Sun Oct 25 2026</p><p>Updated: Wed Oct 28 2026</p></details> |
 | better-next | 13 |  |  |  | <details><summary><a href="https://github.com/nrjdalal/better-next">Link</a></summary><br/><p>Add better-auth using a single commad, or use the template itself, built for Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry</p><p>Created: Sat Mar 08 2025</p><p>Updated: Mon Oct 26 2026</p></details> |
 | slack-mcp-server |  |  | 3 |  | <details><summary><a href="https://github.com/nrjdalal/slack-mcp-server">Link</a></summary><br/><p>A user-token (xoxp) Slack MCP server. Tools mirror the Slack Web API.</p><p>Created: Sun Jun 14 2026</p><p>Updated: Mon Oct 26 2026</p></details> |
@@ -44,7 +44,7 @@
 | google-parser | 18 | 1 | 3 | 2 | <details><summary><a href="https://github.com/nrjdalal/google-parser">Link</a></summary><br/><p>HTTP based Google Search Results scraper/parser</p><p>Created: Wed Jun 14 2023</p><p>Updated: Sat Aug 08 2026</p></details> |
 | virtual-next-routes | 11 |  |  | 169 | <details><summary><a href="https://github.com/nrjdalal/virtual-next-routes">Link</a></summary><br/><p>Next.js App Router style file-system routing for TanStack Start (and TanStack Router).</p><p>Created: Wed May 28 2025</p><p>Updated: Tue Sep 29 2026</p></details> |
 | zshify | 9 |  |  | 31 | <details><summary><a href="https://github.com/nrjdalal/zshify">Link</a></summary><br/><p>Zshify is a minimalistic, one command installation to customize the prompt of your Zshell or Zsh!</p><p>Created: Tue May 11 2021</p><p>Updated: Wed Aug 12 2026</p></details> |
-| tailwind-animate | 8 |  |  | 22045 | <details><summary><a href="https://github.com/nrjdalal/tailwind-animate">Link</a></summary><br/><p>A v4.0 compatible Tailwind CSS plugin for creating beautiful animations, replacing `tailwindcss-animate`. Includes custom animations like `accordion-up` and `accordion-down`, and more!</p><p>Created: Tue Mar 18 2025</p><p>Updated: Tue Sep 29 2026</p></details> |
+| tailwind-animate | 8 |  |  | 27234 | <details><summary><a href="https://github.com/nrjdalal/tailwind-animate">Link</a></summary><br/><p>A v4.0 compatible Tailwind CSS plugin for creating beautiful animations, replacing `tailwindcss-animate`. Includes custom animations like `accordion-up` and `accordion-down`, and more!</p><p>Created: Tue Mar 18 2025</p><p>Updated: Tue Sep 29 2026</p></details> |
 
 <!-- nrjdalal/github-dashboard -->
 <!-- prettier-ignore-end -->
