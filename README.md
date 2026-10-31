@@ -25,9 +25,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| playground |  |  | 49 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Sat Oct 31 2026</p></details> |
-| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Sat Oct 31 2026</p></details> |
+| playground |  |  | 36 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Sat Oct 31 2026</p></details> |
 | awesome-templates | 29 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sat Oct 31 2026</p></details> |
+| PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Sat Oct 31 2026</p></details> |
 | zerostarter | 64 | 11 | 12 |  | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>Modern, type-safe/RPC starter monorepo with foundations for building scalable SaaS products with clean architecture, automation, and great developer experience.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Sat Oct 31 2026</p></details> |
 | playground-yard |  |  | 1 |  | <details><summary><a href="https://github.com/nrjdalal/playground-yard">Link</a></summary><br/><p>Yard: where Playgrounds talk</p><p>Created: Sat Oct 31 2026</p><p>Updated: Sat Oct 31 2026</p></details> |
 | gitpick | 325 | 11 | 6 | 5881 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Oct 30 2026</p></details> |
