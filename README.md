@@ -25,7 +25,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| playground |  |  | 27 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Sun Nov 01 2026</p></details> |
+| playground |  | 1 | 44 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Mon Nov 02 2026</p></details> |
 | awesome-templates | 29 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Nov 01 2026</p></details> |
 | zerostarter | 63 | 10 | 12 |  | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>Modern, type-safe/RPC starter monorepo with foundations for building scalable SaaS products with clean architecture, automation, and great developer experience.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Sun Nov 01 2026</p></details> |
 | gitpick | 324 | 10 | 5 | 5881 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Sun Nov 01 2026</p></details> |
