@@ -25,7 +25,7 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| playground |  | 1 | 165 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Fri Nov 06 2026</p></details> |
+| playground |  | 1 | 184 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Sat Nov 07 2026</p></details> |
 | awesome-templates | 29 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Nov 06 2026</p></details> |
 | gitpick | 328 | 11 | 6 | 6537 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Nov 06 2026</p></details> |
 | PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Fri Nov 06 2026</p></details> |
