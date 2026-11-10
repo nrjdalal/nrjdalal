@@ -25,9 +25,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
+| playground |  | 2 | 222 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Tue Nov 10 2026</p></details> |
 | awesome-templates | 29 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Tue Nov 10 2026</p></details> |
 | PeerZero | 1 | 3 | 1 |  | <details><summary><a href="https://github.com/nrjdalal/PeerZero">Link</a></summary><br/><p>A local-only BitTorrent client in one web UI, with live download progress.</p><p>Created: Sat Jul 18 2026</p><p>Updated: Tue Nov 10 2026</p></details> |
-| playground |  | 2 | 217 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Mon Nov 09 2026</p></details> |
 | skills |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/skills">Link</a></summary><br/><p>Skills for Claude Code</p><p>Created: Mon Aug 03 2026</p><p>Updated: Mon Nov 09 2026</p></details> |
 | zerostarter | 65 | 11 | 12 |  | <details><summary><a href="https://github.com/nrjdalal/zerostarter">Link</a></summary><br/><p>Modern, type-safe/RPC starter monorepo with foundations for building scalable SaaS products with clean architecture, automation, and great developer experience.</p><p>Created: Tue Nov 25 2025</p><p>Updated: Sun Nov 08 2026</p></details> |
 | gitpick | 328 | 11 | 6 | 8251 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Fri Nov 06 2026</p></details> |
