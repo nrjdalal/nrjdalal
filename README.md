@@ -25,9 +25,9 @@
 
 | Repository | Stars | Forks | Issues | NPM | Information |
 | :---: |  :---:  |  :---:  |  :---:  |  :---:  | :---: |
-| gitpick | 329 | 11 | 6 | 3948 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Wed Nov 25 2026</p></details> |
+| gitpick | 330 | 11 | 6 | 3948 | <details><summary><a href="https://github.com/nrjdalal/gitpick">Link</a></summary><br/><p>Clone exactly what you need aka straightforward project scaffolding!</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Nov 26 2026</p></details> |
 | patches-and-extensions |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/patches-and-extensions">Link</a></summary><br/><p>Source patches and extensions for apps built from source</p><p>Created: Wed Nov 18 2026</p><p>Updated: Wed Nov 18 2026</p></details> |
-| playground |  | 2 | 271 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Thu Nov 12 2026</p></details> |
+| playground |  | 2 | 266 |  | <details><summary><a href="https://github.com/nrjdalal/playground">Link</a></summary><br/><p>Created: Fri Oct 30 2026</p><p>Updated: Thu Nov 12 2026</p></details> |
 | awesome-templates | 29 | 5 |  |  | <details><summary><a href="https://github.com/nrjdalal/awesome-templates">Link</a></summary><br/><p>Explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.</p><p>Created: Wed Jan 15 2025</p><p>Updated: Thu Nov 12 2026</p></details> |
 | personal-skills |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/personal-skills">Link</a></summary><br/><p>Skills for Claude Code</p><p>Created: Mon Aug 03 2026</p><p>Updated: Thu Nov 12 2026</p></details> |
 | cloudflare-email-sending |  |  |  |  | <details><summary><a href="https://github.com/nrjdalal/cloudflare-email-sending">Link</a></summary><br/><p>Cloudflare Worker that sends transactional email from <alias>@nrjdalal.com via Cloudflare Email Service</p><p>Created: Fri May 22 2026</p><p>Updated: Thu Nov 12 2026</p></details> |
